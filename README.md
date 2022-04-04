@@ -1,19 +1,19 @@
 ## Updates
 1. Index finished
+1. Modal box for login
 
 ## To Do
-1. Modal box for login
-2. Register page
-3. Me and home page
-4. Settings page
-5. Community pages
-6. Highscores page
-7. Shop page
-8. Playing Habbo pages
-9. Download page
-10. Article page
-11. Help center
-12. Terms of service, privacy policy, cookie policy page
+1. Register page
+2. Me and home page
+3. Settings page
+4. Community pages
+5. Highscores page
+6. Shop page
+7. Playing Habbo pages
+8. Download page
+9. Article page
+10. Help center
+11. Terms of service, privacy policy, cookie policy page
 
 Join our Discord server to follow updates! https://discord.gg/rse43jwzSB
 
