@@ -5,6 +5,7 @@
     margin: 0;
     outline: none;
     border: none;
+    background: none;
     list-style: none;
     text-decoration: none;
     box-sizing: border-box;
@@ -28,23 +29,27 @@
 }
 
 :-ms-input-placeholder {
-  color: 626565;
+  color: #626565;
 }
 
 ::-ms-input-placeholder {
-  color: 626565;
+  color: #626565;
 }
 
 img {
     image-rendering: pixelated;
 }
 
-.pixelated {
-  image-rendering: pixelated;
-}
-
 button, input[type=button], a, .page-content-nav-item {
   cursor: pointer;
+}
+
+a:hover {
+    text-decoration: unde
+}
+
+.pixelated {
+    image-rendering: pixelated;
 }
 
 .container {
@@ -69,9 +74,110 @@ button, input[type=button], a, .page-content-nav-item {
     width: 1250px;
 }
 
-.page-content .page-content-footer .page-content-space-between {
+.page-content .page-content-space-between {
     display: flex;
     justify-content: space-between;
+}
+
+.page-content .page-content-modal {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: #16161680;
+    z-index: 9;
+}
+
+.page-content .page-content-modal .page-content-modal-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.page-content .page-content-modal .page-content-modal-center .page-content-modal-center-form {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 8px;
+    width: 500px;
+}
+
+.page-content .page-content-modal .page-content-modal-center .page-content-modal-center-form .page-content-modal-center-form-head {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0;
+    border-radius: 8px 8px 0 0;
+}
+
+.page-content .page-content-modal .page-content-modal-center .page-content-modal-center-form .page-content-modal-center-form-head .page-content-modal-center-form-head-title {
+    color: #4E4E4E;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.page-content .page-content-modal .page-content-modal-center .page-content-modal-center-form .page-content-modal-center-form-head .page-content-modal-center-form-head-description {
+    color: #4E4E4E;
+    font-size: 17px;
+    
+font-weight: 400;}
+
+.page-content .page-content-modal .page-content-modal-center .page-content-modal-center-form .page-content-modal-center-form-head .page-content-modal-center-form-head-close {
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    display: flex;
+    place-content: center;
+    align-items: center;
+    height: 30px;
+    width: 30px;}
+
+.page-content .page-content-modal .page-content-modal-center .page-content-modal-center-form .page-content-modal-center-form-head .page-content-modal-center-form-head-close .page-content-modal-center-form-head-close-icon {
+    width: 23px;
+    cursor: pointer;
+}
+
+.page-content .page-content-modal .page-content-modal-center .page-content-modal-center-form .page-content-modal-center-form-content {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 70px 50px 70px;
+}
+
+.page-content .page-content-modal .page-content-modal-center .page-content-modal-center-form .page-content-modal-center-form-content .page-content-modal-center-form-content-input {
+    background-color: #ffffff0a;
+    border: 3px solid #0000000d;
+    border-radius: 5px;
+    color: #4E4E4E;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+}
+
+.page-content .page-content-modal .page-content-modal-center .page-content-modal-center-form .page-content-modal-center-form-content .page-content-modal-center-form-content-button-login {
+    background-color: #EEB425;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 3px;
+    margin: 5px 0 0 0;}
+
+.page-content .page-content-modal .page-content-modal-center .page-content-modal-center-form .page-content-modal-center-form-content .page-content-modal-center-form-content-button-register {
+    color: #4E4E4E;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 15px 0 0 0;
+}
+
+.page-content .page-content-modal .page-content-modal-center .page-content-modal-center-form .page-content-modal-center-form-content .page-content-modal-center-form-content-button-register:hover {
+    text-decoration: underline;
 }
 
 .page-content .page-content-header {
