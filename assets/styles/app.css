@@ -44,10 +44,6 @@ button, input[type=button], a, .page-content-nav-item {
   cursor: pointer;
 }
 
-a:hover {
-    text-decoration: unde
-}
-
 .pixelated {
     image-rendering: pixelated;
 }
@@ -112,7 +108,7 @@ a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 15px 0;
+    padding: 50px 0 15px 0;
     border-radius: 8px 8px 0 0;
 }
 
@@ -139,8 +135,8 @@ font-weight: 400;}
     width: 30px;}
 
 .page-content .page-content-modal .page-content-modal-center .page-content-modal-center-form .page-content-modal-center-form-head .page-content-modal-center-form-head-close .page-content-modal-center-form-head-close-icon {
-    width: 23px;
-    cursor: pointer;
+    width: 25px;
+    fill: #2e2e2e;cursor: pointer;
 }
 
 .page-content .page-content-modal .page-content-modal-center .page-content-modal-center-form .page-content-modal-center-form-content {
@@ -160,6 +156,10 @@ font-weight: 400;}
     margin-bottom: 10px;
 }
 
+.page-content .page-content-modal .page-content-modal-center .page-content-modal-center-form .page-content-modal-center-form-content .page-content-modal-center-form-content-input:focus {
+    border-color: #EEB425;
+}
+
 .page-content .page-content-modal .page-content-modal-center .page-content-modal-center-form .page-content-modal-center-form-content .page-content-modal-center-form-content-button-login {
     background-color: #EEB425;
     color: #fff;
@@ -173,7 +173,7 @@ font-weight: 400;}
     color: #4E4E4E;
     font-size: 14px;
     font-weight: 500;
-    margin: 15px 0 0 0;
+    text-align: center;margin: 15px 0 0 0;
 }
 
 .page-content .page-content-modal .page-content-modal-center .page-content-modal-center-form .page-content-modal-center-form-content .page-content-modal-center-form-content-button-register:hover {
@@ -316,7 +316,7 @@ font-weight: 400;}
     color: #2C3039;
     font-size: 15px;
     font-weight: 500;
-    padding: 6px 15px;
+    padding: 8px 15px;
 }
 
 .page-content .page-content-nav .page-content-nav-item .page-content-nav-item-dropdown-content .page-content-nav-item-sub-text:hover {
