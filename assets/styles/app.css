@@ -56,6 +56,19 @@ button, input[type=button], a, .page-content-nav-item {
     overflow-x: hidden;
 }
 
+.page-load {
+	position: fixed;
+	left: 0;
+	top: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #eaf2f5;
+    z-index: 9;
+}
+
 .page-content {
     display: flex;
     flex-direction: column;
@@ -167,7 +180,16 @@ font-weight: 400;}
     font-weight: 500;
     padding: 10px;
     border-radius: 3px;
-    margin: 5px 0 0 0;}
+    margin: 5px 0 0 0;
+}
+
+.page-content .page-content-modal .page-content-modal-center .page-content-modal-center-form .page-content-modal-center-form-content .page-content-modal-center-form-content-button-login:hover {
+    background-color: #f3be3c;
+}
+
+.page-content .page-content-modal .page-content-modal-center .page-content-modal-center-form .page-content-modal-center-form-content .page-content-modal-center-form-content-button-login:active {
+    background-color: #e5aa19;
+}
 
 .page-content .page-content-modal .page-content-modal-center .page-content-modal-center-form .page-content-modal-center-form-content .page-content-modal-center-form-content-button-register {
     color: #4E4E4E;
@@ -251,6 +273,10 @@ font-weight: 400;}
     border: 2px solid transparent;
     border-radius: 100px;
     padding: 10px 30px;
+}
+
+.page-content .page-content-header .page-content-header-column .page-content-header-buttons .page-content-header-register-button:hover {
+    background: #449f47;
 }
 
 .page-content .page-content-header .page-content-header-column .page-content-header-buttons .page-content-header-or {
@@ -347,6 +373,7 @@ font-weight: 400;}
 
 .page-content .page-content-collider .page-content-collider-item .page-content-collider-head {
     display: flex;
+    margin: 0 0 20px 0;
 }
 
 .page-content .page-content-collider .page-content-collider-item .page-content-collider-head .page-content-collider-head-icon {
@@ -387,11 +414,27 @@ font-weight: 400;}
 }
 
 .page-content .page-content-collider .page-content-collider-item .page-content-collider-content {
+    position: relative;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
-    margin: 20px 0 0 0;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content.registration {
+    width: 900px;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content.registration::before {
+    image-rendering: pixelated;
+    background: url(/assets/images/registration/background.png);
+    content: '';
+    display: block;
+    width: 290px;height: 350px;
+    
+    position: absolute;
+    right: 0;
+    top: 0;
 }
 
 .page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-article {
@@ -434,21 +477,22 @@ font-weight: 400;}
 .page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-article .page-content-collider-content-article-bottom-side {
     position: absolute;
     bottom: 20px;
-    left: 20px;display: flex;
-    
+    left: 20px;
+    display: flex;
 }
 
 .page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-article .page-content-collider-content-article-bottom-side .page-content-collider-content-article-bottom-side-avatar {
     display: flex;
-    align-items: center;height: 40px;
+    align-items: center;
+    height: 40px;
 }
 
 .page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-article .page-content-collider-content-article-bottom-side .page-content-collider-content-article-bottom-side-avatar .page-content-collider-content-article-bottom-side-avatar-figure {
     position: absolute;
     bottom: 0;
-    
     height: 40px;
-    width: 40px;border-radius: 100px;background-size: 40px;
+    width: 40px;border-radius: 100px;
+    background-size: 40px;
     background-repeat: no-repeat;
     background-position: center;
     overflow: hidden;
@@ -458,7 +502,9 @@ font-weight: 400;}
 
 .page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-article .page-content-collider-content-article-bottom-side .page-content-collider-content-article-bottom-side-avatar .page-content-collider-content-article-bottom-side-avatar-username {
     color: #666666;
-    font-size: 14px;font-weight: 500;padding: 0 0 0 45px;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0 0 0 45px;
 }
 
 .page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-photos {
@@ -480,25 +526,25 @@ font-weight: 400;}
     height: 100%;
     border-radius: 8px;
     background-position: center;
-    
 }
 
 .page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-photos .page-content-collider-content-photos-bottom-side {
     position: absolute;
     bottom: 10px;
-    left: 10px;display: flex;
-    
+    left: 10px;
+    display: flex;
 }
 
 .page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-photos .page-content-collider-content-photos-bottom-side .page-content-collider-content-photos-bottom-side-avatar {
     display: flex;
     align-items: center;
-padding: 13px 15px;background-color: #fff;border-radius: 100px;}
+    padding: 13px 15px;background-color: #fff;
+    border-radius: 100px;
+}
 
 .page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-photos .page-content-collider-content-photos-bottom-side .page-content-collider-content-photos-bottom-side-avatar .page-content-collider-content-photos-bottom-side-avatar-figure {
     position: absolute;
     bottom: 3px;
-    
     height: 40px;
     width: 40px;border-radius: 100px;background-size: 40px;
     background-repeat: no-repeat;
@@ -510,10 +556,115 @@ padding: 13px 15px;background-color: #fff;border-radius: 100px;}
 
 .page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-photos .page-content-collider-content-photos-bottom-side .page-content-collider-content-photos-bottom-side-avatar .page-content-collider-content-photos-bottom-side-avatar-username {
     color: #666666;
-    font-size: 14px;font-weight: 500;padding: 0 0 0 45px;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0 0 0 45px;
 }
 
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-registration {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+}
 
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-registration .page-content-collider-content-registration-title {
+    color: #222222;
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0 0 5px 0;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-registration .page-content-collider-content-registration-item {
+    flex-direction: column;
+    margin: 20px 0 0 0;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-registration .page-content-collider-content-registration-item:nth-of-type(2n+0) {
+    background-color: #efefef;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-registration .page-content-collider-content-registration-item .page-content-collider-content-registration-item-title {
+    color: #000;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 0 0 5px 0;
+    display: block;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-registration .page-content-collider-content-registration-item .page-content-collider-content-registration-item-text {
+    color: #4E4E4E;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-registration .page-content-collider-content-registration-item .page-content-collider-content-registration-item-text .page-content-collider-content-registration-item-href {
+    color: #222222;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-registration .page-content-collider-content-registration-item .page-content-collider-content-registration-item-input {
+    background-color: #fff;
+    border: 3px solid #0000001c;
+    border-radius: 5px;
+    color: #4E4E4E;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 10px 20px;
+    margin: 15px 0 0 0;
+    width: 100%;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-registration .page-content-collider-content-registration-item .page-content-collider-content-registration-item-input:focus {
+    border-color: #EEB425;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-registration .page-content-collider-content-registration-item .page-content-collider-content-registration-item-checkbox {
+    height: 1.7em;
+    margin: 0 10px 0 0;
+    display: block;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-registration .page-content-collider-content-registration-item .page-content-collider-content-registration-item-select {
+    background-color: #fff;
+    border: 3px solid #0000001c;
+    border-radius: 5px;
+    color: #4E4E4E;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 10px 20px;
+    margin: 15px 0 0 0;
+    width: 32%;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-registration .page-content-collider-content-registration-item .page-content-collider-content-registration-item-column {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-registration .page-content-collider-content-registration-button {
+    background-color: #EEB425;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 3px;
+    margin: 20px 0 0 0;
+    width: 100%;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-registration .page-content-collider-content-registration-button:hover {
+    background-color: #f3be3c;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-registration .page-content-collider-content-registration-buttonn:active {
+    background-color: #e5aa19;
+}
 
 .page-content .error {
     display: none;

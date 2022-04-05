@@ -3,20 +3,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="assets/styles/app.css">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="/assets/styles/app.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <title>Virtual World, Avatar Chat and Pixel Art - Habbo</title>
 </head>
-<body id="index" class="container">
+<body class="container">
+	<script src="/assets/scripts/app.js"></script>
     <div class="page-content">
         <header class="page-content-header pixelated">
             <div class="page-content-max-width">
                 <div class="page-content-header-column">
                     <p class="page-content-header-text">Online virtual community where you can create your own avatar, make friends, chat, create rooms and much more!</p>
                     <div class="page-content-header-buttons">
-                        <a onclick="document.getElementById('login').style.display='block';document.getElementsByTagName('body').style.overflow='hidden'" class="page-content-header-login-button">Login</a>
+                        <a onclick="document.getElementById('login').style.display='block'" class="page-content-header-login-button">Login</a>
                         <span class="page-content-header-or">OR</span>
-                        <a href="/register.html" class="page-content-header-register-button">Create Account</a>
+                        <a href="/registration.php" class="page-content-header-register-button">Create Account</a>
                     </div>
                 </div>
             </div> 
@@ -35,7 +36,7 @@
                         <input type="text" class="page-content-modal-center-form-content-input" placeholder="Email or username">
                         <input type="password" class="page-content-modal-center-form-content-input" placeholder="Password">
                         <button class="page-content-modal-center-form-content-button-login">Let's Go</button>
-                        <a href="/register.html" class="page-content-modal-center-form-content-button-register">Don't have an account? Join now!</a>
+                        <a href="/registration.php" class="page-content-modal-center-form-content-button-register">Don't have an account? Join now!</a>
                     </div>
                 </div>
             </div>
@@ -43,32 +44,32 @@
         <div class="page-content-nav">
             <div class="page-content-max-width" style="justify-content: flex-start;">
                 <div class="page-content-nav-item active">
-                    <a rel="ajax-loader" href="#" class="page-content-nav-item-text">Home</a>
+                    <a href="/" class="page-content-nav-item-text">Home</a>
                 </div>
                 <div class="page-content-nav-item">
                     <a class="page-content-nav-item-text">Community</a>
                     <div class="page-content-nav-item-dropdown-content">
-                        <a rel="ajax-loader" href="#" class="page-content-nav-item-sub-text">Photos</a>
-                        <a rel="ajax-loader" href="#" class="page-content-nav-item-sub-text">Rooms</a>
-                        <a rel="ajax-loader" href="#" class="page-content-nav-item-sub-text">Fansites</a>
-                        <a rel="ajax-loader" href="#" class="page-content-nav-item-sub-text">Staffs</a>
-                        <a rel="ajax-loader" href="#" class="page-content-nav-item-sub-text">News</a>
+                        <a href="#" class="page-content-nav-item-sub-text">Photos</a>
+                        <a href="#" class="page-content-nav-item-sub-text">Rooms</a>
+                        <a href="#" class="page-content-nav-item-sub-text">Fansites</a>
+                        <a href="#" class="page-content-nav-item-sub-text">Staffs</a>
+                        <a href="#" class="page-content-nav-item-sub-text">News</a>
                     </div>
                 </div>
                 <div class="page-content-nav-item">
-                    <a rel="ajax-loader" href="#" class="page-content-nav-item-text">Highscores</a>
+                    <a href="#" class="page-content-nav-item-text">Highscores</a>
                 </div>
                 <div class="page-content-nav-item">
-                    <a rel="ajax-loader" href="#" class="page-content-nav-item-text">Shop</a>
+                    <a href="#" class="page-content-nav-item-text">Shop</a>
                 </div>
                 <div class="page-content-nav-item">
                     <a class="page-content-nav-item-text">Playing Habbo</a>
                     <div class="page-content-nav-item-dropdown-content">
-                        <a rel="ajax-loader" href="#" class="page-content-nav-item-sub-text">What is Habbo</a>
-                        <a rel="ajax-loader" href="#" class="page-content-nav-item-sub-text">How to Play</a>
-                        <a rel="ajax-loader" href="#" class="page-content-nav-item-sub-text">Habbo Way</a>
-                        <a rel="ajax-loader" href="#" class="page-content-nav-item-sub-text">Safety</a>
-                        <a rel="ajax-loader" href="#" class="page-content-nav-item-sub-text">Help</a>
+                        <a href="#" class="page-content-nav-item-sub-text">What is Habbo</a>
+                        <a href="#" class="page-content-nav-item-sub-text">How to Play</a>
+                        <a href="#" class="page-content-nav-item-sub-text">Habbo Way</a>
+                        <a href="#" class="page-content-nav-item-sub-text">Safety</a>
+                        <a href="#" class="page-content-nav-item-sub-text">Help</a>
                     </div>
                 </div>
             </div>
@@ -210,24 +211,5 @@
             </div>
         </footer>
     </div>
-    <script type="text/javascript">
-    $(function(){
-        $('a[rel="ajax-loader"]').click(function(e){
-            pageurl = $(this).attr('href');
-            $.ajax({url:pageurl,success: function(data){
-                $('body').html(data).find("body").html();
-            }});        
-            if(pageurl!=window.location){
-                window.history.pushState({path:pageurl},'',pageurl);    
-            }
-            return false;  
-        });
-    });
-    $(window).bind('popstate', function() {
-        $.ajax({url:location.pathname,success: function(data){
-            $('body').html(data).find("body").html();
-        }});
-    });
-    </script>
 </body>
 </html>
