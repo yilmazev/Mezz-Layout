@@ -2,9 +2,10 @@
 1. Index finished
 2. Modal box for login
 3. Registration page
+4. Me page
 
 ## To Do
-1. Me and home page
+1. Home page
 2. Settings page
 3. Community pages
 4. Highscores page
