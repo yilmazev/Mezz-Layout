@@ -10,37 +10,59 @@
 <body class="container">
 	<script src="/assets/scripts/app.js"></script>
     <div class="page-content">
-        <header class="page-content-header pixelated">
-            <div class="page-content-max-width">
-                <div class="page-content-header-column">
-                    <p class="page-content-header-text">Online virtual community where you can create your own avatar, make friends, chat, create rooms and much more!</p>
-                    <div class="page-content-header-buttons">
-                        <a onclick="document.getElementById('login').style.display='block'" class="page-content-header-login-button">Login</a>
-                        <span class="page-content-header-or">OR</span>
-                        <a href="/registration.php" class="page-content-header-register-button">Create Account</a>
+        <div class="page-content-user-space">
+            <div class="page-content-max-width space-between">
+                <div class="page-content-user-space-left-side">
+                <div class="page-content-user-space-left-side-item">
+                        <span class="page-content-user-space-left-side-item-icon credits"></span>
+                        <div class="page-content-user-space-left-side-item-column">
+                            <p class="page-content-user-space-left-side-item-text bold">25000</p>
+                            <p class="page-content-user-space-left-side-item-text">Credits</p>
+                        </div>
+                    </div>
+                    <div class="page-content-user-space-left-side-item">
+                        <span class="page-content-user-space-left-side-item-icon duckets"></span>
+                        <div class="page-content-user-space-left-side-item-column">
+                            <p class="page-content-user-space-left-side-item-text bold">50000</p>
+                            <p class="page-content-user-space-left-side-item-text">Duckets</p>
+                        </div>
+                    </div>
+                    <div class="page-content-user-space-left-side-item">
+                        <span class="page-content-user-space-left-side-item-icon diamonds"></span>
+                        <div class="page-content-user-space-left-side-item-column">
+                            <p class="page-content-user-space-left-side-item-text bold">25</p>
+                            <p class="page-content-user-space-left-side-item-text">Diamonds</p>
+                        </div>
                     </div>
                 </div>
-            </div> 
-        </header>
-        <div id="login" class="page-content-modal">
-            <div class="page-content-modal-center">
-                <div class="page-content-modal-center-form">
-                    <div class="page-content-modal-center-form-head">
-                        <h2 class="page-content-modal-center-form-head-title">Hello</h2>
-                        <p class="page-content-modal-center-form-head-description">We are so glad to see you again.</p>
-                        <i onclick="document.getElementById('login').style.display='none';document.getElementsByTagName('body').style.overflow='auto'" class="page-content-modal-center-form-head-close">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="page-content-modal-center-form-head-close-icon"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd" /></svg>
-                        </i>
-                    </div>
-                    <div class="page-content-modal-center-form-content">
-                        <input type="text" class="page-content-modal-center-form-content-input" placeholder="Email or username">
-                        <input type="password" class="page-content-modal-center-form-content-input" placeholder="Password">
-                        <button class="page-content-modal-center-form-content-button-login">Let's Go</button>
-                        <a href="/registration.php" class="page-content-modal-center-form-content-button-register">Don't have an account? Join now!</a>
+                <div class="page-content-user-space-right-side">
+                    <div class="page-content-user-space-right-side-item">
+                        <div onclick="dropdown()" class="page-content-user-space-right-side-item-nav">
+                            <span class="page-content-user-space-right-side-item-nav-figure pixelated" style="background-image: url('https://www.habbo.com/habbo-imaging/avatarimage?figure=hd-3095-1.ch-255-110.lg-285-68.ha-3567-0.sh-290-1408&action=std&direction=2&head_direction=2&img_format=undefined&gesture=sml&headonly=1&size=b')"></span>
+                            <span class="page-content-user-space-right-side-item-nav-username">Hugoyin</span>
+                            <button class="page-content-user-space-right-side-item-nav-hidden-button"></button>
+                        </div>
+                        <div id="user-space-dropdown" class="page-content-user-space-right-side-item-dropdown-content">
+                            <a class="page-content-user-space-right-side-item-sub-text" href="#profile">My Profile</a>
+                            <a class="page-content-user-space-right-side-item-sub-text" href="#settings">Settings</a>
+                            <a class="page-content-user-space-right-side-item-sub-text" href="#help" target="_blank">Help</a>
+                            <a class="page-content-user-space-right-side-item-sub-text" href="#logout">Logout</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+        <header class="page-content-header pixelated">
+            <div class="page-content-max-width">
+                <div class="page-content-header-column space-between" style="flex-direction: row;">
+                    <span class="page-content-header-figure" style="background-image: url('https://www.habbo.com/habbo-imaging/avatarimage?figure=hd-3095-1.ch-255-110.lg-285-68.ha-3567-0.sh-290-1408&direction=2&head_direction=3&gesture=sml&action=wav&size=l')"></span>
+                    <div class="page-content-header-buttons">
+                        <a href="/hotel" class="page-content-header-default-button">Hotel</a>
+                        <a href="/flash" class="page-content-header-default-button">Download</a>
+                    </div>
+                </div>
+            </div> 
+        </header>
         <div class="page-content-nav">
             <div class="page-content-max-width" style="justify-content: flex-start;">
                 <div class="page-content-nav-item active">

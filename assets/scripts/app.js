@@ -14,3 +14,20 @@ function removeLoader(){
 		$( ".page-load" ).remove();
 	}); 
 }
+
+function dropdown() {
+	document.getElementById("user-space-dropdown").classList.toggle("show");
+}
+  
+window.onclick = function(event) {
+	if (!event.target.matches('.page-content-user-space-right-side-item-nav-hidden-button')) {
+		var dropdowns = document.getElementsByClassName("page-content-user-space-right-side-item-dropdown-content");
+		var i;
+		for (i = 0; i < dropdowns.length; i++) {
+			var openDropdown = dropdowns[i];
+			if (openDropdown.classList.contains('show')) {
+				openDropdown.classList.remove('show');
+			}
+		}
+	}
+}

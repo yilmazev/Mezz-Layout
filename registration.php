@@ -139,7 +139,7 @@
         </div>
         <footer class="page-content-footer">
             <div class="page-content-footer-top-side">
-                <div class="page-content-max-width page-content-space-between" style="align-items: flex-start;">
+                <div class="page-content-max-width space-between" style="align-items: flex-start;">
                     <div class="page-content-footer-column">
                         <img class="page-content-footer-logo" src="https://habbofont.net/font/habbo_big/habbo.gif">
                         <p class="page-content-footer-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui, provident doloremque? Temporibus aliquam maiores debitis cumque? Officia voluptate reprehenderit recusandae ipsum nulla voluptatibus iure, ratione, corporis et, nam sint fuga!</p>
@@ -165,7 +165,7 @@
                 </div>
             </div>
             <div class="page-content-footer-bottom-side">
-                <div class="page-content-max-width page-content-space-between" style="align-items: flex-start;">
+                <div class="page-content-max-width space-between" style="align-items: flex-start;">
                     <span class="page-content-footer-title copyright">&copy; <script>var date=new Date();var year=date.getFullYear();document.write(year);</script> Habbo Hotel.</span>
                     <p class="page-content-footer-text copyright">All rights reserved. Design and coding by <a href="https://yilmazev.github.io" target="_blank" class="page-content-footer-url hugoyin">Hugoyin</a>.</p>
                 </div>

@@ -48,6 +48,11 @@ button, input[type=button], a, .page-content-nav-item {
     image-rendering: pixelated;
 }
 
+.space-between {
+    
+    display: flex;justify-content: space-between;
+}
+
 .container {
     display: flex;
     flex-direction: column;
@@ -78,14 +83,7 @@ button, input[type=button], a, .page-content-nav-item {
 
 .page-content .page-content-max-width {
     display: flex;
-    justify-content: center;
-    align-items: center;
     width: 1250px;
-}
-
-.page-content .page-content-space-between {
-    display: flex;
-    justify-content: space-between;
 }
 
 .page-content .page-content-modal {
@@ -195,11 +193,159 @@ font-weight: 400;}
     color: #4E4E4E;
     font-size: 14px;
     font-weight: 500;
-    text-align: center;margin: 15px 0 0 0;
+    text-align: center;
+    margin: 15px 0 0 0;
 }
 
 .page-content .page-content-modal .page-content-modal-center .page-content-modal-center-form .page-content-modal-center-form-content .page-content-modal-center-form-content-button-register:hover {
     text-decoration: underline;
+}
+
+.page-content .page-content-user-space {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #fff;
+    padding: 15px 0;
+z-index: 2;}
+
+
+.page-content .page-content-user-space .page-content-user-space-left-side {
+    display: flex;
+}
+
+.page-content .page-content-user-space .page-content-user-space-left-side .page-content-user-space-left-side-item {
+    display: flex;
+    align-items: flex-start;
+    margin: 0 100px 0 0;
+}
+
+.page-content .page-content-user-space .page-content-user-space-left-side .page-content-user-space-left-side-item .page-content-user-space-left-side-item-icon {
+    display: block;height: 25px;
+    width: 25px;
+    border-radius: 100px;
+    outline-offset: 3px;
+    background-color: #f2f2f2;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.page-content .page-content-user-space .page-content-user-space-left-side .page-content-user-space-left-side-item .page-content-user-space-left-side-item-icon.credits {
+    background-image: url('/assets/images/user-space/credits.png');
+    background-color: #e9b124;
+    outline: 1px solid #b26d18;
+}
+
+.page-content .page-content-user-space .page-content-user-space-left-side .page-content-user-space-left-side-item .page-content-user-space-left-side-item-icon.duckets {
+    background-image: url('/assets/images/user-space/duckets.png');
+    background-color: #c44aac;
+    outline: 1px solid #812378;
+}
+
+.page-content .page-content-user-space .page-content-user-space-left-side .page-content-user-space-left-side-item .page-content-user-space-left-side-item-icon.diamonds {
+    background-image: url('/assets/images/user-space/diamonds.png');
+    background-color: #caf1f3;
+    outline: 1px solid #6caff4;
+}
+
+.page-content .page-content-user-space .page-content-user-space-left-side .page-content-user-space-left-side-item .page-content-user-space-left-side-item-column {
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 0 15px;
+}
+
+.page-content .page-content-user-space .page-content-user-space-left-side .page-content-user-space-left-side-item .page-content-user-space-left-side-item-text {
+    color: #000;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.page-content .page-content-user-space .page-content-user-space-left-side .page-content-user-space-left-side-item .page-content-user-space-left-side-item-text.bold {
+    font-weight: 600;
+}
+
+.page-content .page-content-user-space .page-content-user-space-right-side {
+    display: flex;
+align-items: center;}
+
+.page-content .page-content-user-space .page-content-user-space-right-side .page-content-user-space-right-side-item {
+    position: relative;margin: 0 10px 0 0;
+}
+
+.page-content .page-content-user-space .page-content-user-space-right-side .page-content-user-space-right-side-item:last-child {
+    margin: 0;
+}
+
+.page-content .page-content-user-space .page-content-user-space-right-side .page-content-user-space-right-side-item .page-content-user-space-right-side-item-nav {
+    position: relative;display: flex;
+    align-items: center;
+    background-color: #EFEFEF;height: 50px;
+border-radius: 5px;padding: 0 14px;cursor: pointer;}
+
+.page-content .page-content-user-space .page-content-user-space-right-side .page-content-user-space-right-side-item .page-content-user-space-right-side-item-nav .page-content-user-space-right-side-item-nav-figure {
+    position: absolute;
+    bottom: 0;
+    height: 50px;
+    width: 33px;
+    border-radius: 100px;
+    background-size: 33px;
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+    image-rendering: -webkit-optimize-contrast;
+}
+
+.page-content .page-content-user-space .page-content-user-space-right-side .page-content-user-space-right-side-item .page-content-user-space-right-side-item-nav .page-content-user-space-right-side-item-nav-username {
+    position: relative;color: #000;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 0 16px 0 35px;
+}
+
+.page-content .page-content-user-space .page-content-user-space-right-side .page-content-user-space-right-side-item .page-content-user-space-right-side-item-nav .page-content-user-space-right-side-item-nav-hidden-button {
+    position: absolute;left: 0;
+    
+    top: 0;
+    width: 100%;
+height: 100%;z-index: 1;}
+
+.page-content .page-content-user-space .page-content-user-space-right-side .page-content-user-space-right-side-item .page-content-user-space-right-side-item-nav .page-content-user-space-right-side-item-nav-username::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 8px;
+    background-image: url('/assets/images/user-space/dropdown.png');
+    background-position: top;
+    background-repeat: no-repeat;
+    height: 4px;
+    width: 8px;
+    display: inline-block;
+}
+
+.page-content .page-content-user-space .page-content-user-space-right-side .page-content-user-space-right-side-item .page-content-user-space-right-side-item-dropdown-content {
+    position: absolute;
+    top: 90%;
+    left: 0;width: 100%;visibility: hidden;
+    background-color: #efefef;
+    border-radius: 3px;
+    
+}
+
+.page-content .page-content-user-space .page-content-user-space-right-side .page-content-user-space-right-side-item .page-content-user-space-right-side-item-dropdown-content.show {
+    visibility: visible;
+}
+
+.page-content .page-content-user-space .page-content-user-space-right-side .page-content-user-space-right-side-item .page-content-user-space-right-side-item-dropdown-content .page-content-user-space-right-side-item-sub-text {
+    display: block;
+    color: #2C3039;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 8px 15px;
+}
+
+.page-content .page-content-user-space .page-content-user-space-right-side .page-content-user-space-right-side-item .page-content-user-space-right-side-item-dropdown-content .page-content-user-space-right-side-item-sub-text:hover {
+    background-color: #0000000a;
 }
 
 .page-content .page-content-header {
@@ -228,6 +374,9 @@ font-weight: 400;}
 .page-content .page-content-header .page-content-header-column {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
 }
 
 .page-content .page-content-header .page-content-header-column .page-content-header-text {
@@ -238,6 +387,14 @@ font-weight: 400;}
     max-width: 600px;
     z-index: 1;
 }
+
+.page-content .page-content-header .page-content-header-column .page-content-header-figure {
+    height: 220px;
+    width: 128px;
+    background-position: 0 30px;
+    background-repeat: no-repeat;
+    
+z-index: 1;}
 
 .page-content .page-content-header .page-content-header-column .page-content-header-buttons {
     display: flex;
@@ -277,6 +434,25 @@ font-weight: 400;}
 
 .page-content .page-content-header .page-content-header-column .page-content-header-buttons .page-content-header-register-button:hover {
     background: #449f47;
+}
+
+.page-content .page-content-header .page-content-header-column .page-content-header-buttons .page-content-header-default-button {
+    background: #ffffffed;
+    color: #2c3039;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-radius: 100px;
+    padding: 10px 30px;
+    margin: 0 10px 0 0;
+}
+
+.page-content .page-content-header .page-content-header-column .page-content-header-buttons .page-content-header-default-button:last-child {
+    margin: 0;
+}
+
+.page-content .page-content-header .page-content-header-column .page-content-header-buttons .page-content-header-default-button:hover {
+    background: #fff;
 }
 
 .page-content .page-content-header .page-content-header-column .page-content-header-buttons .page-content-header-or {
@@ -492,7 +668,7 @@ font-weight: 400;}
     bottom: 0;
     height: 40px;
     width: 40px;border-radius: 100px;
-    background-size: 40px;
+    background-size: 33px;
     background-repeat: no-repeat;
     background-position: center;
     overflow: hidden;
@@ -546,7 +722,7 @@ font-weight: 400;}
     position: absolute;
     bottom: 3px;
     height: 40px;
-    width: 40px;border-radius: 100px;background-size: 40px;
+    width: 40px;border-radius: 100px;background-size: 33px;
     background-repeat: no-repeat;
     background-position: center;
     overflow: hidden;
