@@ -267,10 +267,12 @@ z-index: 2;}
 
 .page-content .page-content-user-space .page-content-user-space-right-side {
     display: flex;
-align-items: center;}
+    align-items: center;
+}
 
 .page-content .page-content-user-space .page-content-user-space-right-side .page-content-user-space-right-side-item {
-    position: relative;margin: 0 10px 0 0;
+    position: relative;
+    margin: 0 10px 0 0;
 }
 
 .page-content .page-content-user-space .page-content-user-space-right-side .page-content-user-space-right-side-item:last-child {
@@ -281,7 +283,10 @@ align-items: center;}
     position: relative;display: flex;
     align-items: center;
     background-color: #EFEFEF;height: 50px;
-border-radius: 5px;padding: 0 14px;cursor: pointer;}
+    border-radius: 5px;
+    padding: 0 14px;
+    cursor: pointer;
+}
 
 .page-content .page-content-user-space .page-content-user-space-right-side .page-content-user-space-right-side-item .page-content-user-space-right-side-item-nav .page-content-user-space-right-side-item-nav-figure {
     position: absolute;
@@ -684,7 +689,8 @@ z-index: 1;}
 }
 
 .page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-photos {
-    position: relative;width: 300px;
+    position: relative;
+    width: 300px;
     height: 300px;
     background-color: #fff;
     box-shadow: 0 4px 8px 0px #0000001a;
@@ -714,7 +720,8 @@ z-index: 1;}
 .page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-photos .page-content-collider-content-photos-bottom-side .page-content-collider-content-photos-bottom-side-avatar {
     display: flex;
     align-items: center;
-    padding: 13px 15px;background-color: #fff;
+    padding: 13px 15px;
+    background-color: #fff;
     border-radius: 100px;
 }
 
@@ -722,7 +729,8 @@ z-index: 1;}
     position: absolute;
     bottom: 3px;
     height: 40px;
-    width: 40px;border-radius: 100px;background-size: 33px;
+    width: 40px;border-radius: 100px;
+    background-size: 33px;
     background-repeat: no-repeat;
     background-position: center;
     overflow: hidden;
@@ -842,6 +850,290 @@ z-index: 1;}
     background-color: #e5aa19;
 }
 
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content.profile {
+    background-color: asd;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-profile {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-profile .page-content-collider-content-profile-avatar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 480px;
+    background: linear-gradient(0deg, #202020ad, #202020ad), url(/assets/images/profile/background.png);
+    border-radius: 5px;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-profile .page-content-collider-content-profile-avatar .page-content-collider-content-profile-avatar-figure {
+    filter: drop-shadow(1px 1px 0px #fff) drop-shadow(-1px 0px 0px #fff) drop-shadow(0px -1px 0px #fff);
+    -webkit-filter: drop-shadow(1px 1px 0px #fff) drop-shadow(-1px 0px 0px #fff) drop-shadow(0px -1px 0px #fff);
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-profile .page-content-collider-content-profile-avatar .page-content-collider-content-profile-avatar-username {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-profile .page-content-collider-content-profile-avatar .page-content-collider-content-profile-avatar-small-text {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-profile .page-content-collider-content-profile-avatar .page-content-collider-content-profile-avatar-motto {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 50px;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-profile .page-content-collider-content-profile-avatar .page-content-collider-content-profile-avatar-column {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-profile .page-content-collider-content-profile-purse {
+    display: flex;
+    align-items: center;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-profile .page-content-collider-content-profile-purse .page-content-collider-content-profile-purse-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #dce4e7;
+    height: 100%;
+    width: 250px;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-profile .page-content-collider-content-profile-purse .page-content-collider-content-profile-purse-item.credits {
+    background-color: #f8ef2b;
+    border-radius: 10px 0 0 10px;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-profile .page-content-collider-content-profile-purse .page-content-collider-content-profile-purse-item.duckets {
+    background-color: #e99bdc;
+    border-radius: 0;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-profile .page-content-collider-content-profile-purse .page-content-collider-content-profile-purse-item.diamonds {
+    background-color: #82d6db;
+    border-radius: 0 10px 10px 0;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-profile .page-content-collider-content-profile-purse .page-content-collider-content-profile-purse-item .page-content-collider-content-profile-purse-item-icon {
+    width: 85px;
+    height: 79px;
+    display: block;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-profile .page-content-collider-content-profile-purse .page-content-collider-content-profile-purse-item.credits .page-content-collider-content-profile-purse-item-icon {
+    background-image: url('/assets/images/profile/credits.png');
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-profile .page-content-collider-content-profile-purse .page-content-collider-content-profile-purse-item.duckets .page-content-collider-content-profile-purse-item-icon {
+    background-image: url(/assets/images/profile/duckets.png);
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-profile .page-content-collider-content-profile-purse .page-content-collider-content-profile-purse-item.diamonds .page-content-collider-content-profile-purse-item-icon {
+    background-image: url(/assets/images/profile/diamonds.png);
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-profile .page-content-collider-content-profile-purse .page-content-collider-content-profile-purse-item .page-content-collider-content-profile-purse-item-text {
+    color: #fff;
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 50px;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-profile .page-content-collider-content-profile-purse .page-content-collider-content-profile-purse-item.credits .page-content-collider-content-profile-purse-item-text {
+    color: #b16d18;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-profile .page-content-collider-content-profile-purse .page-content-collider-content-profile-purse-item.duckets .page-content-collider-content-profile-purse-item-text {
+    color: #812378;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-profile .page-content-collider-content-profile-purse .page-content-collider-content-profile-purse-item.diamonds .page-content-collider-content-profile-purse-item-text {
+    color: #146867;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-profile .page-content-collider-content-profile-card-wrapper {
+    position: relative;
+    width: 550px;
+    height: auto
+    ;margin: 60px 0 0px 0;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-profile .page-content-collider-content-profile-card-wrapper .page-content-collider-content-profile-card-wrapper-aligner {
+    display: flex;
+    flex-direction: column;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-profile .page-content-collider-content-profile-card-wrapper .page-content-collider-content-profile-card-wrapper-aligner::before {
+    content: "";
+    display: block;
+    width: 550px;
+    height: 140px;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-profile .page-content-collider-content-profile-card-wrapper .page-content-collider-content-profile-card-wrapper-aligner.badges::before {
+    background-image: url('/assets/images/profile/badges.png');
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-profile .page-content-collider-content-profile-card-wrapper .page-content-collider-content-profile-card-wrapper-aligner.friends::before {
+    background-image: url('/assets/images/profile/friends.png');
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-profile .page-content-collider-content-profile-card-wrapper .page-content-collider-content-profile-card-wrapper-aligner.rooms::before {
+    background-image: url('/assets/images/profile/rooms.png');
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-profile .page-content-collider-content-profile-card-wrapper .page-content-collider-content-profile-card-wrapper-aligner.groups::before {
+    background-image: url('/assets/images/profile/groups.png');
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-profile .page-content-collider-content-profile-card-wrapper .page-content-collider-content-profile-card-wrapper-aligner .page-content-collider-content-profile-card-wrapper-aligner-content {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 12px 24px;
+    max-height: 200px;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-profile .page-content-collider-content-profile-card-wrapper .page-content-collider-content-profile-card-wrapper-aligner .page-content-collider-content-profile-card-wrapper-aligner-content .page-content-collider-content-profile-card-wrapper-aligner-content-title {
+    display: block;
+    color: #2C3039;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0 0 10px 0;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-profile .page-content-collider-content-profile-card-wrapper .page-content-collider-content-profile-card-wrapper-aligner .page-content-collider-content-profile-card-wrapper-aligner-content .page-content-collider-content-profile-card-wrapper-aligner-content-badge {
+    outline: 2px solid #bbbab887;
+    border-radius: 100px;
+    padding: 10px 10px;
+    margin: 0 46px 0 0;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-profile .page-content-collider-content-profile-card-wrapper .page-content-collider-content-profile-card-wrapper-aligner .page-content-collider-content-profile-card-wrapper-aligner-content .page-content-collider-content-profile-card-wrapper-aligner-content-badge:last-child {
+    margin: 0;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-profile .page-content-collider-content-profile-card-wrapper .page-content-collider-content-profile-card-wrapper-aligner .page-content-collider-content-profile-card-wrapper-aligner-content .page-content-collider-content-profile-card-wrapper-aligner-content-friend {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 0 15px 0;
+    width: 96px;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-profile .page-content-collider-content-profile-card-wrapper .page-content-collider-content-profile-card-wrapper-aligner .page-content-collider-content-profile-card-wrapper-aligner-content .page-content-collider-content-profile-card-wrapper-aligner-content-friend:nth-of-type(5n+0) {
+    margin-right: 0;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-profile .page-content-collider-content-profile-card-wrapper .page-content-collider-content-profile-card-wrapper-aligner .page-content-collider-content-profile-card-wrapper-aligner-content .page-content-collider-content-profile-card-wrapper-aligner-content-friend .page-content-collider-content-profile-card-wrapper-aligner-content-friend-figure {
+    width: auto;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-profile .page-content-collider-content-profile-card-wrapper .page-content-collider-content-profile-card-wrapper-aligner .page-content-collider-content-profile-card-wrapper-aligner-content .page-content-collider-content-profile-card-wrapper-aligner-content-friend .page-content-collider-content-profile-card-wrapper-aligner-content-friend-username {
+    color: #000;
+    font-size: 15px;
+    font-weight: 500;
+    max-width: 100px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-profile .page-content-collider-content-profile-card-wrapper .page-content-collider-content-profile-card-wrapper-aligner .page-content-collider-content-profile-card-wrapper-aligner-content .page-content-collider-content-profile-card-wrapper-aligner-content-room {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 12px 15px 0;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-profile .page-content-collider-content-profile-card-wrapper .page-content-collider-content-profile-card-wrapper-aligner .page-content-collider-content-profile-card-wrapper-aligner-content .page-content-collider-content-profile-card-wrapper-aligner-content-room .page-content-collider-content-profile-card-wrapper-aligner-content-room-image {
+    width: auto;
+    border-radius: 3px;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-profile .page-content-collider-content-profile-card-wrapper .page-content-collider-content-profile-card-wrapper-aligner .page-content-collider-content-profile-card-wrapper-aligner-content .page-content-collider-content-profile-card-wrapper-aligner-content-room .page-content-collider-content-profile-card-wrapper-aligner-content-room-name {
+    color: #000;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 3px 0 0 0;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content-profile .page-content-collider-content-profile-photos {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+margin: 50px 0 0 0;}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content-profile .page-content-collider-content-profile-photos .page-content-collider-content-profile-photos-title {
+    display: flex;
+    justify-content: space-between;align-items: center;color: #2C3039;
+    font-size: 20px;
+    font-weight: 600;
+    width: 100%;
+    margin: 0 0 10px 0;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content-profile .page-content-collider-content-profile-photos .page-content-collider-content-profile-photos-title::after {
+    content: "";
+width: 100%;height: 3px;margin-left: 30px;border-top: 2px solid #2C3039;}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content-profile .page-content-collider-content-profile-photos .page-content-collider-content-profile-photo {
+    position: relative;width: 300px;
+    height: 300px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0px #0000001a;
+    border-radius: 8px;
+    margin: 0 16px 16px 0;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content-profile .page-content-collider-content-profile-photos .page-content-collider-content-profile-photo:nth-of-type(4n+0) {
+    margin: 0;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content-profile .page-content-collider-content-profile-photos .page-content-collider-content-profile-photo .page-content-collider-content-profile-photo-promo {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    background-position: center;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content-profile .page-content-collider-content-profile-date {
+    display: flex;
+    justify-content: center;align-items: center;width: 100%;color: #2C3039;
+    font-size: 23px;
+    font-weight: 600;
+text-transform: uppercase;margin: 30px 0 0 0;}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content-profile .page-content-collider-content-profile-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+width: 100%;margin: 10px 0 0 0;}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content-profile .page-content-collider-content-profile-icon-heart {
+    background-image: url('/assets/images/profile/heart.png');
+    height: 24px;
+    width: 26px;
+    font-weight: 600;
+margin: 0 3px;}
+
 .page-content .error {
     display: none;
     position: absolute;
@@ -855,9 +1147,6 @@ z-index: 1;}
     border-radius: 3px;
     padding: 5px 20px;
 }
-
-
-
 
 .page-content .page-content-footer {
     display: flex;
@@ -950,4 +1239,146 @@ z-index: 1;}
 
 .page-content .page-content-footer .page-content-footer-download-button:hover {
     background-color: #292c34;
+}
+
+.tooltip {
+    position:absolute;
+    z-index:99999;
+    display:block;
+    font-style:normal;
+    font-weight:400;
+    line-height:1.42857143;
+    line-break:auto;
+    text-align:left;
+    text-align:start;
+    text-decoration:none;
+    text-shadow:none;
+    text-transform:none;
+    letter-spacing:normal;
+    word-break:normal;
+    word-spacing:normal;
+    word-wrap:normal;white-space:normal;
+    font-size:13px;
+    filter:alpha(opacity=0);
+    opacity:0;
+}
+
+.tooltip.in {
+    filter:alpha(opacity=90);
+    opacity:.9;
+}
+
+.tooltip.top {
+    padding:5px 0;
+    margin-top:-3px;
+    
+}
+
+.tooltip.right {
+    padding:0 5px;
+    margin-left:3px;
+    
+}
+
+.tooltip.bottom {
+    padding:5px 0;
+    margin-top:3px;
+}
+
+.tooltip.left {
+    padding:0 5px;
+    margin-left:-3px;
+}
+
+.tooltip.top .tooltip-arrow {
+    bottom:0;
+    left:50%;
+    margin-left:-5px;
+    border-width:5px 5px 0;
+    border-top-color:#000000c4;
+}
+
+.tooltip.top-left .tooltip-arrow {
+    right:5px;
+    bottom:0;
+    margin-bottom:-5px;
+    border-width:5px 5px 0;
+    border-top-color:#000000c4;
+}
+
+.tooltip.top-right .tooltip-arrow {
+    bottom:0;
+    left:5px;
+    margin-bottom:-5px;
+    border-width:5px 5px 0;
+    border-top-color:#000000c4;
+}
+
+.tooltip.right .tooltip-arrow {
+    top:50%;
+    left:0;
+    margin-top:-5px;
+    border-width:5px 5px 5px 0;
+    border-right-color:#000000c4;
+}
+
+.tooltip.left .tooltip-arrow {
+    top:50%;
+    right:0;
+    margin-top:-5px;
+    border-width:5px 0 5px 5px;
+    border-left-color:#000000c4;
+}
+
+.tooltip.bottom .tooltip-arrow {
+    top:0;
+    left:50%;
+    margin-left:-5px;
+    border-width:0 5px 5px;
+    border-bottom-color:#000000c4;
+}
+
+.tooltip.bottom-left .tooltip-arrow {
+    top:0;
+    right:5px;
+    margin-top:-5px;
+    border-width:0 5px 5px;
+    border-bottom-color:#000000c4;
+}
+
+.tooltip.bottom-right .tooltip-arrow {
+    top:0;
+    left:5px;
+    margin-top:-5px;
+    border-width:0 5px 5px;
+    border-bottom-color:#000000c4;
+}
+
+.tooltip-inner {
+    max-width:200px;
+    padding:5px 12px;
+    color:#fff;
+    text-align:center;
+    background-color:#000000c4;
+    border-radius:4px;
+    
+}
+
+.tooltip-arrow {
+    position:absolute;
+    width:0;
+    height:0;
+    border-color:transparent;
+    border-style:solid;
+}
+
+.fade {
+    opacity:0;
+    -webkit-transition:opacity .1s linear;
+    -o-transition:opacity .1s linear;
+    transition:opacity .1s linear;
+}
+
+.fade.in {
+    opacity:1;
 }

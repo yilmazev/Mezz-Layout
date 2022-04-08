@@ -31,3 +31,7 @@ window.onclick = function(event) {
 		}
 	}
 }
+
+$(document).ready(function(){
+	$('[data-toggle="tooltip"]').tooltip();
+});
