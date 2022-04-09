@@ -22,8 +22,6 @@
 
 ❌ Download page
 
-❌ Article page
-
 ❌ Help center
 
 ❌ Terms of service, privacy policy, cookie policy page
