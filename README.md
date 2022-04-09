@@ -1,7 +1,7 @@
 ## Updates
 ✔️ Index finished
 
-✔️ Modal box for login
+✔️ Login modal box
 
 ✔️ Registration page
 
@@ -13,14 +13,14 @@
 
 ✔️ Community pages
 
+✔️ Download modal box
+
 ## To Do
 ❌ Highscores page
 
 ❌ Shop page
 
 ❌ Playing Habbo pages
-
-❌ Download page
 
 ❌ Help center
 
