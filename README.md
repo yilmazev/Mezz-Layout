@@ -4,17 +4,17 @@
 3. Registration page
 4. Me page
 5. Profile page
+6. Settings page
 
 ## To Do
-1. Settings page
-2. Community pages
-3. Highscores page
-4. Shop page
-5. Playing Habbo pages
-6. Download page
-7. Article page
-8. Help center
-9. Terms of service, privacy policy, cookie policy page
+1. Community pages
+2. Highscores page
+3. Shop page
+4. Playing Habbo pages
+5. Download page
+6. Article page
+7. Help center
+8. Terms of service, privacy policy, cookie policy page
 
 Join our Discord server to follow updates! https://discord.gg/rse43jwzSB
 
