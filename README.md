@@ -3,18 +3,18 @@
 2. Modal box for login
 3. Registration page
 4. Me page
+5. Profile page
 
 ## To Do
-1. Home page
-2. Settings page
-3. Community pages
-4. Highscores page
-5. Shop page
-6. Playing Habbo pages
-7. Download page
-8. Article page
-9. Help center
-10. Terms of service, privacy policy, cookie policy page
+1. Settings page
+2. Community pages
+3. Highscores page
+4. Shop page
+5. Playing Habbo pages
+6. Download page
+7. Article page
+8. Help center
+9. Terms of service, privacy policy, cookie policy page
 
 Join our Discord server to follow updates! https://discord.gg/rse43jwzSB
 
