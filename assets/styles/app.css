@@ -119,7 +119,7 @@ button, input[type=button], a, .page-content-nav-item {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 50px 0 15px 0;
+    padding: 30px 0 15px 0;
     border-radius: 8px 8px 0 0;
 }
 
@@ -132,8 +132,8 @@ button, input[type=button], a, .page-content-nav-item {
 .page-content .page-content-modal .page-content-modal-center .page-content-modal-center-form .page-content-modal-center-form-head .page-content-modal-center-form-head-description {
     color: #4E4E4E;
     font-size: 17px;
-    
-font-weight: 400;}
+    font-weight: 400;}
+
 
 .page-content .page-content-modal .page-content-modal-center .page-content-modal-center-form .page-content-modal-center-form-head .page-content-modal-center-form-head-close {
     position: absolute;
@@ -143,17 +143,19 @@ font-weight: 400;}
     place-content: center;
     align-items: center;
     height: 30px;
-    width: 30px;}
+    width: 30px;
+}
 
 .page-content .page-content-modal .page-content-modal-center .page-content-modal-center-form .page-content-modal-center-form-head .page-content-modal-center-form-head-close .page-content-modal-center-form-head-close-icon {
     width: 25px;
-    fill: #2e2e2e;cursor: pointer;
+    fill: #2e2e2e;
+    cursor: pointer;
 }
 
 .page-content .page-content-modal .page-content-modal-center .page-content-modal-center-form .page-content-modal-center-form-content {
     display: flex;
     flex-direction: column;
-    padding: 20px 70px 50px 70px;
+    padding: 20px 70px 30px 70px;
 }
 
 .page-content .page-content-modal .page-content-modal-center .page-content-modal-center-form .page-content-modal-center-form-content .page-content-modal-center-form-content-input {
@@ -169,6 +171,98 @@ font-weight: 400;}
 
 .page-content .page-content-modal .page-content-modal-center .page-content-modal-center-form .page-content-modal-center-form-content .page-content-modal-center-form-content-input:focus {
     border-color: #EEB425;
+}
+
+.page-content .page-content-modal .page-content-modal-center .page-content-modal-center-form .page-content-modal-center-form-content .page-content-modal-center-form-content-box {
+    display: flex;
+    flex-direction: column;
+    background-color: #dedede;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px 0 20px 0;
+}
+
+.page-content .page-content-modal .page-content-modal-center .page-content-modal-center-form .page-content-modal-center-form-content .page-content-modal-center-form-content-box .page-content-modal-center-form-content-box-text {
+    color: #4E4E4E;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.page-content .page-content-modal .page-content-modal-center .page-content-modal-center-form .page-content-modal-center-form-content .page-content-modal-center-form-content-box .page-content-modal-center-form-content-box-row {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0 0 0;
+}
+
+.page-content .page-content-modal .page-content-modal-center .page-content-modal-center-form .page-content-modal-center-form-content .page-content-modal-center-form-content-box .page-content-modal-center-form-content-box-username {
+    color: #4E4E4E;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.page-content .page-content-modal .page-content-modal-center .page-content-modal-center-form .page-content-modal-center-form-content .page-content-modal-center-form-content-box .page-content-modal-center-form-content-box-motto {
+    color: #4E4E4E;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.page-content .page-content-modal .page-content-modal-center .page-content-modal-center-form .page-content-modal-center-form-content .page-content-modal-center-form-content-box .page-content-modal-center-form-content-box-column {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0 0 10px;
+}
+
+.page-content .page-content-modal .page-content-modal-center .page-content-modal-center-form .page-content-modal-center-form-content .page-content-modal-center-form-content-text {
+    color: #4E4E4E;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+    margin: 0 0 5px 0;
+}
+
+.page-content .page-content-modal .page-content-modal-center .page-content-modal-center-form .page-content-modal-center-form-content .page-content-modal-center-form-content-button-launch {
+    background-color: #00813e;
+    background-image: url('/assets/images/launch/launch.png');
+    background-repeat: no-repeat;
+    background-position: 10px 10px;
+    background-size: 33px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 15px;
+    border-radius: 3px;
+    margin: 5px 0 0 0;
+    image-rendering: pixelated;
+}
+
+.page-content .page-content-modal .page-content-modal-center .page-content-modal-center-form .page-content-modal-center-form-content .page-content-modal-center-form-content-button-launch:hover {
+    background-color: #09994e;
+}
+
+.page-content .page-content-modal .page-content-modal-center .page-content-modal-center-form .page-content-modal-center-form-content .page-content-modal-center-form-content-button-launch:active {
+    background-color: #016631;
+}
+
+.page-content .page-content-modal .page-content-modal-center .page-content-modal-center-form .page-content-modal-center-form-content .page-content-modal-center-form-content-button-download {
+    background-color: #EEB425;
+    background-image: url('/assets/images/launch/magic.png');
+    background-repeat: no-repeat;background-position: 10px 10px;
+    background-size: 33px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 15px;
+    border-radius: 3px;
+    margin: 5px 0 0 0;
+    image-rendering: pixelated;
+}
+
+.page-content .page-content-modal .page-content-modal-center .page-content-modal-center-form .page-content-modal-center-form-content .page-content-modal-center-form-content-button-download:hover {
+    background-color: #f3be3c;
+}
+
+.page-content .page-content-modal .page-content-modal-center .page-content-modal-center-form .page-content-modal-center-form-content .page-content-modal-center-form-content-button-download:active {
+    background-color: #e5aa19;
 }
 
 .page-content .page-content-modal .page-content-modal-center .page-content-modal-center-form .page-content-modal-center-form-content .page-content-modal-center-form-content-button-login {
@@ -198,6 +292,18 @@ font-weight: 400;}
 }
 
 .page-content .page-content-modal .page-content-modal-center .page-content-modal-center-form .page-content-modal-center-form-content .page-content-modal-center-form-content-button-register:hover {
+    text-decoration: underline;
+}
+
+.page-content .page-content-modal .page-content-modal-center .page-content-modal-center-form .page-content-modal-center-form-content .page-content-modal-center-form-content-button-help {
+    color: #2C3039;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: center;
+    margin: 15px 0 0 0;
+}
+
+.page-content .page-content-modal .page-content-modal-center .page-content-modal-center-form .page-content-modal-center-form-content .page-content-modal-center-form-content-button-help:hover {
     text-decoration: underline;
 }
 
@@ -1638,7 +1744,7 @@ flex-wrap: nowrap;height: auto;}
 
 
 .page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-news-left-side .page-content-collider-content-news-left-side-item .page-content-collider-content-news-left-side-item-list .page-content-collider-content-news-left-side-item-list-item .page-content-collider-content-news-left-side-item-list-url::after {
-    content: "»";
+    content: "Ãƒâ€šÃ‚Â»";
     padding: 0 0 0 5px;
 }
 

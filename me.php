@@ -58,11 +58,41 @@
                     <span class="page-content-header-figure" style="background-image: url('https://www.habbo.com/habbo-imaging/avatarimage?figure=hd-3095-1.ch-255-110.lg-285-68.ha-3567-0.sh-290-1408&direction=2&head_direction=3&gesture=sml&action=wav&size=l')"></span>
                     <div class="page-content-header-buttons">
                         <a href="/hotel" class="page-content-header-default-button">Hotel</a>
-                        <a href="/flash" class="page-content-header-default-button">Download</a>
+                        <a onclick="document.getElementById('download').style.display='block';" class="page-content-header-default-button">Download</a>
                     </div>
                 </div>
             </div> 
         </header>
+		<div id="download" class="page-content-modal">
+            <div class="page-content-modal-center">
+                <div class="page-content-modal-center-form">
+                    <div class="page-content-modal-center-form-head">
+                        <h2 class="page-content-modal-center-form-head-title">Play with the Habbo app</h2>
+                        <p class="page-content-modal-center-form-head-description">Access Habbo via the app.</p>
+                        <i onclick="document.getElementById('download').style.display='none';" class="page-content-modal-center-form-head-close">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="page-content-modal-center-form-head-close-icon"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd" /></svg>
+                        </i>
+                    </div>
+                    <div class="page-content-modal-center-form-content">
+                        <button class="page-content-modal-center-form-content-button-launch">Launch App</button>
+						<div class="page-content-modal-center-form-content-box">
+							<p class="page-content-modal-center-form-content-box-text">You are currently logging in with Hugoyin account.</p>
+							<div class="page-content-modal-center-form-content-box-row">
+								<img src="https://www.habbo.com/habbo-imaging/avatarimage?figure=hd-3095-1.ch-255-110.lg-285-68.ha-3567-0.sh-290-1408&action=std&direction=2&head_direction=3&img_format=undefined&gesture=sml&headonly=0&size=b" alt="Hugoyin Avatar" class="page-content-modal-center-form-content-box-figure">
+								<div class="page-content-modal-center-form-content-box-column">
+									<p class="page-content-modal-center-form-content-box-username">Hugoyin</p>
+									<p class="page-content-modal-center-form-content-box-motto">That's a horse-habbo</p>
+								</div>
+							</div>
+						</div>
+                        <p class="page-content-modal-center-form-content-text">Haven't downloaded the Habbo app yet?</p>
+                        <button class="page-content-modal-center-form-content-button-download">Download for Windows</button>
+                        <button class="page-content-modal-center-form-content-button-download">Download for Mac</button>
+                        <a href="#" target="_blank" class="page-content-modal-center-form-content-button-help">Help</a>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="page-content-nav">
             <div class="page-content-max-width" style="justify-content: flex-start;">
                 <div class="page-content-nav-item active">
