@@ -65,11 +65,11 @@
                 <div class="page-content-nav-item">
                     <a class="page-content-nav-item-text">Playing Habbo</a>
                     <div class="page-content-nav-item-dropdown-content">
-                        <a href="#" class="page-content-nav-item-sub-text">What is Habbo</a>
-                        <a href="#" class="page-content-nav-item-sub-text">How to Play</a>
-                        <a href="#" class="page-content-nav-item-sub-text">Habbo Way</a>
-                        <a href="#" class="page-content-nav-item-sub-text">Safety</a>
-                        <a href="#" class="page-content-nav-item-sub-text">Help</a>
+                        <a href="/playing-habbo/what-is-habbo.php" class="page-content-nav-item-sub-text">What is Habbo</a>
+                        <a href="/playing-habbo/how-to-play.php" class="page-content-nav-item-sub-text">How to Play</a>
+                        <a href="/playing-habbo/habbo-way.php" class="page-content-nav-item-sub-text">Habbo Way</a>
+                        <a href="/playing-habbo/safety.php" class="page-content-nav-item-sub-text">Safety</a>
+                        <a href="#" target="_blank" class="page-content-nav-item-sub-text">Help</a>
                     </div>
                 </div>
             </div>

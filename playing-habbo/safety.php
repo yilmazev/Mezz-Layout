@@ -26,7 +26,7 @@
             <div class="page-content-modal-center">
                 <div class="page-content-modal-center-form">
                     <div class="page-content-modal-center-form-head">
-                        <h2 class="page-content-modal-center-form-head-title">Hello</h2>
+                        <h3 class="page-content-modal-center-form-head-title">Hello</h3>
                         <p class="page-content-modal-center-form-head-description">We are so glad to see you again.</p>
                         <i onclick="document.getElementById('login').style.display='none';document.getElementsByTagName('body').style.overflow='auto'" class="page-content-modal-center-form-head-close">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="page-content-modal-center-form-head-close-icon"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd" /></svg>
@@ -46,7 +46,7 @@
                 <div class="page-content-nav-item">
                     <a href="/" class="page-content-nav-item-text">Home</a>
                 </div>
-                <div class="page-content-nav-item active">
+                <div class="page-content-nav-item">
                     <a class="page-content-nav-item-text">Community</a>
                     <div class="page-content-nav-item-dropdown-content">
                         <a href="/community/photos.php" class="page-content-nav-item-sub-text">Photos</a>
@@ -62,7 +62,7 @@
                 <div class="page-content-nav-item">
                     <a href="/shop.php" class="page-content-nav-item-text">Shop</a>
                 </div>
-                <div class="page-content-nav-item">
+                <div class="page-content-nav-item active">
                     <a class="page-content-nav-item-text">Playing Habbo</a>
                     <div class="page-content-nav-item-dropdown-content">
                         <a href="/playing-habbo/what-is-habbo.php" class="page-content-nav-item-sub-text">What is Habbo</a>
@@ -77,23 +77,38 @@
         <div class="page-content-collider">
             <div class="page-content-max-width" style="width: 900px; justify-content: center;">
                 <div class="page-content-collider-item">
-                    <div class="page-content-collider-content fansites">
-                        <div class="page-content-collider-content-fansites-left-side">
-                            <h2 class="page-content-collider-content-fansites-title">Official Fansites</h2>
-                            <div class="page-content-collider-content-fansites-list-space">
-                                <p class="page-content-collider-content-fansites-list-space-title">Our official fansites at the moment are:</p>
-                                <ul class="page-content-collider-content-fansites-list-space-list">
-                                    <!-- <p class="page-content-collider-content-fansites-list-space-list-error">We don't have an official fansite yet.</p> -->
-                                    <li class="page-content-collider-content-fansites-list-space-list-item">
-                                        <a href="https://habbopie.com" target="_blank" class="page-content-collider-content-fansites-list-space-list-item-url">HabboPie</a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <p class="page-content-collider-content-fansites-paragraph">Every once in a while, we look for new official fansites, and when that happens we will publish a notification ingame. Check out our <a href="#" target="_blank" class="page-content-collider-content-fansites-paragraph-url">fansite policy</a> if you have any questions!</p>
-                            <p class="page-content-collider-content-fansites-paragraph">Always remember to keep your Habbo login details separate and private! Don't use them to register on any other sites.</p>
+                    <div class="page-content-collider-content playing-habbo">
+                        <div class="page-content-collider-content-playing-habbo-item">
+                            <h1 class="page-content-collider-content-playing-habbo-item-big-title">Safety tips</h3>
+                            <p class="page-content-collider-content-playing-habbo-item-description">These are the top 7 tips for how to navigate the internet safely and securely!</p>
                         </div>
-                        <div class="page-content-collider-content-fansites-right-side">
-                            <img src="/assets/images/collider/groups.png" alt="Fansites" class="page-content-collider-content-fansites-right-side-image">
+                        <div class="page-content-collider-content-playing-habbo-item dashed">
+                            <h3 class="page-content-collider-content-playing-habbo-item-mini-title">Protect Your Personal Info</h3>
+                            <p class="page-content-collider-content-playing-habbo-item-description"><img src="/assets/images/playing-habbo/safetytips1_n.png" alt="Protect Your Personal Info" class="page-content-collider-content-playing-habbo-item-image">You never know who you're truly speaking to online, so never share your personal information! Giving away your personal info - real name, address, phone numbers, photos or school - could lead to you being scammed, bullied or put in serious danger.</p>
+                        </div>
+                        <div class="page-content-collider-content-playing-habbo-item dashed">
+                            <h3 class="page-content-collider-content-playing-habbo-item-mini-title">Protect Your Privacy</h3>
+                            <p class="page-content-collider-content-playing-habbo-item-description"><img src="/assets/images/playing-habbo/safetytips2_n.png" alt="Protect Your Privacy" class="page-content-collider-content-playing-habbo-item-image">Never share your any of your personal details. This includes Facebook, Twitter, Discord, Skype, Instagram and Snapchat info. You never know who might get their hands on it!</p>
+                        </div>
+                        <div class="page-content-collider-content-playing-habbo-item dashed">
+                            <h3 class="page-content-collider-content-playing-habbo-item-mini-title">Don't Give In To Peer Pressure</h3>
+                            <p class="page-content-collider-content-playing-habbo-item-description"><img src="/assets/images/playing-habbo/safetytips3_n.png" alt="Don't Give In To Peer Pressure" class="page-content-collider-content-playing-habbo-item-image">Just because everyone else seems to be doing it, doesn't mean you have to. If you are not comfortable with something, don't do it!</p>
+                        </div>
+                        <div class="page-content-collider-content-playing-habbo-item dashed">
+                            <h3 class="page-content-collider-content-playing-habbo-item-mini-title">Keep Your Pals In Pixels</h3>
+                            <p class="page-content-collider-content-playing-habbo-item-description"><img src="/assets/images/playing-habbo/safetytips4_n.png" alt="Keep Your Pals In Pixels" class="page-content-collider-content-playing-habbo-item-image">Do not meet up with someone you only know from the internet! People aren't always who they claim to be. If a Habbo asks you to meet with them in real life say "No, thanks!" click 'Ignore' on them and tell your parents or another trusted adult.</p>
+                        </div>
+						<div class="page-content-collider-content-playing-habbo-item dashed">
+                            <h3 class="page-content-collider-content-playing-habbo-item-mini-title">Don't Be Scared To Speak Up</h3>
+                            <p class="page-content-collider-content-playing-habbo-item-description"><img src="/assets/images/playing-habbo/safetytips5_n.png" alt="Don't Be Scared To Speak Up" class="page-content-collider-content-playing-habbo-item-image">If someone is making you feel uncomfortable, threatening you, or pressuring you to do something you don't want to, put them on ignore, and report them immediately to our moderation team using the "Call for Help" button.</p>
+                        </div>
+						<div class="page-content-collider-content-playing-habbo-item dashed">
+                            <h3 class="page-content-collider-content-playing-habbo-item-mini-title">Ban The Cam</h3>
+                            <p class="page-content-collider-content-playing-habbo-item-description"><img src="/assets/images/playing-habbo/safetytips6_n.png" alt="Ban The Cam" class="page-content-collider-content-playing-habbo-item-image">You have no control over your personal photos, videos + webcam images after you share them on the internet. Once an image is posted, it can never be removed, will be viewable by anyone and could be used to bully or blackmail you. Before you share a pic or video, ask yourself; are you comfortable with people you don't know viewing it?</p>
+                        </div>
+						<div class="page-content-collider-content-playing-habbo-item">
+                            <h3 class="page-content-collider-content-playing-habbo-item-mini-title">Stick To The Real Habbo!</h3>
+                            <p class="page-content-collider-content-playing-habbo-item-description"><img src="/assets/images/playing-habbo/safetytips7_n.png" alt="Stick To The Real Habbo!" class="page-content-collider-content-playing-habbo-item-image">Websites that offer free prizes, credits, furni, or "staff rights" are ALL scams designed to steal your password. Never give them your login details or download files from these websites. They could be keyloggers or viruses!</p>
                         </div>
                     </div>
                 </div>

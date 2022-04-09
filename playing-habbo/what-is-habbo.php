@@ -46,7 +46,7 @@
                 <div class="page-content-nav-item">
                     <a href="/" class="page-content-nav-item-text">Home</a>
                 </div>
-                <div class="page-content-nav-item active">
+                <div class="page-content-nav-item">
                     <a class="page-content-nav-item-text">Community</a>
                     <div class="page-content-nav-item-dropdown-content">
                         <a href="/community/photos.php" class="page-content-nav-item-sub-text">Photos</a>
@@ -56,7 +56,7 @@
                         <a href="/community/article.php" class="page-content-nav-item-sub-text">News</a>
                     </div>
                 </div>
-                <div class="page-content-nav-item">
+                <div class="page-content-nav-item active">
                     <a href="/highscores.php" class="page-content-nav-item-text">Highscores</a>
                 </div>
                 <div class="page-content-nav-item">
@@ -77,23 +77,32 @@
         <div class="page-content-collider">
             <div class="page-content-max-width" style="width: 900px; justify-content: center;">
                 <div class="page-content-collider-item">
-                    <div class="page-content-collider-content fansites">
-                        <div class="page-content-collider-content-fansites-left-side">
-                            <h2 class="page-content-collider-content-fansites-title">Official Fansites</h2>
-                            <div class="page-content-collider-content-fansites-list-space">
-                                <p class="page-content-collider-content-fansites-list-space-title">Our official fansites at the moment are:</p>
-                                <ul class="page-content-collider-content-fansites-list-space-list">
-                                    <!-- <p class="page-content-collider-content-fansites-list-space-list-error">We don't have an official fansite yet.</p> -->
-                                    <li class="page-content-collider-content-fansites-list-space-list-item">
-                                        <a href="https://habbopie.com" target="_blank" class="page-content-collider-content-fansites-list-space-list-item-url">HabboPie</a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <p class="page-content-collider-content-fansites-paragraph">Every once in a while, we look for new official fansites, and when that happens we will publish a notification ingame. Check out our <a href="#" target="_blank" class="page-content-collider-content-fansites-paragraph-url">fansite policy</a> if you have any questions!</p>
-                            <p class="page-content-collider-content-fansites-paragraph">Always remember to keep your Habbo login details separate and private! Don't use them to register on any other sites.</p>
+                    <div class="page-content-collider-content playing-habbo">
+                        <div class="page-content-collider-content-playing-habbo-item">
+                            <h2 class="page-content-collider-content-playing-habbo-item-title">What is Habbo?</h2>
+                            <p class="page-content-collider-content-playing-habbo-item-description">Habbo is an online vintage pixel-art style virtual community where you can <b class="page-content-collider-content-playing-habbo-item-bolder">create your own avatar, make friends, chat, build rooms, design + play games</b> and so much more! Almost anything is possible in this strange place full of awesome people…</p>
                         </div>
-                        <div class="page-content-collider-content-fansites-right-side">
-                            <img src="/assets/images/collider/groups.png" alt="Fansites" class="page-content-collider-content-fansites-right-side-image">
+                        <div class="page-content-collider-content-playing-habbo-item">
+                            <h2 class="page-content-collider-content-playing-habbo-item-title">More than just a game...</h2>
+                            <p class="page-content-collider-content-playing-habbo-item-description"><img src="/assets/images/playing-habbo/ill_15.png" alt="More than just a game..." class="page-content-collider-content-playing-habbo-item-image">Styling your avatar in the most on-trend styles isn't the only way to have fun in Habbo. Want to be the architect of the century and <b class="page-content-collider-content-playing-habbo-item-bolder">build dazzling structures?</b> Builders Club is for you! Want to show off your crazy <b class="page-content-collider-content-playing-habbo-item-bolder">game building skills</b> and stump your friends? Join our competitions!</p>
+                        </div>
+                        <div class="page-content-collider-content-playing-habbo-item">
+                            <h2 class="page-content-collider-content-playing-habbo-item-title">Find your community</h2>
+                            <p class="page-content-collider-content-playing-habbo-item-description">Do you love to chat and hang out with friends? <b class="page-content-collider-content-playing-habbo-item-bolder">Habbo Groups, forums and Roleplaying communities</b> are a great place to start. Join the army and suit up for duty, don your cape and save the universe, wear Habbo Couture as you strut down the runway, become a nurse and save pixel lives. Join in and start exploring the endless role-playing possibilities!</p>
+                        </div>
+                        <div class="page-content-collider-content-playing-habbo-item">
+                            <h2 class="page-content-collider-content-playing-habbo-item-title">Express yourself</h2>
+                            <p class="page-content-collider-content-playing-habbo-item-description"><img src="/assets/images/playing-habbo/ill_16.png" alt="Express yourself" class="page-content-collider-content-playing-habbo-item-image">Creativity and individuality are welcomed in Habbo! Every week we have tons of awesome competitions for you to enter. From <b class="page-content-collider-content-playing-habbo-item-bolder">room building to Selfies, to pixel art videos and short story comps</b> - there are tons of cool things to get your artistic juices flowing and win awesome achievements + prizes! Feeling creative? Check out our news to find out about fun weekly competitions!</p>
+                        </div>
+                        <div class="page-content-collider-content-playing-habbo-item">
+                            <h2 class="page-content-collider-content-playing-habbo-item-title">Play free, forever.</h2>
+                            <p class="page-content-collider-content-playing-habbo-item-description">Habbo is a <b class="page-content-collider-content-playing-habbo-item-bolder">free to play game</b>, so you can explore a vast world of rooms, complete quests, chat and win prizes without ever having to pay a thing!</p>
+                            <p class="page-content-collider-content-playing-habbo-item-description">Some in-game 'extras' like pets, Habbo Club membership, Builders Club membership and furniture can be purchased with Habbo Credits. For more info about in-game extras, head to the <a href="/playing-habbo/shop.php" class="page-content-collider-content-playing-habbo-item-url">Shop</a>.</p>
+                        </div>
+                        <div class="page-content-collider-content-playing-habbo-item">
+                            <h2 class="page-content-collider-content-playing-habbo-item-title">Always here to help...</h2>
+                            <p class="page-content-collider-content-playing-habbo-item-description"><img src="/assets/images/playing-habbo/ill_17.png" alt="Always here to help..." class="page-content-collider-content-playing-habbo-item-image">The Hotel is moderated 24 hours a day, seven days a week. You can also do a lot to make sure you stay safe on Habbo and on the internet. Read our <a href="/playing-habbo/safety.php" class="page-content-collider-content-playing-habbo-item-url">Safety</a> Tips to find out how.</p>
+                            <p class="page-content-collider-content-playing-habbo-item-description">As a popular online virtual world we are proud to have great <b class="page-content-collider-content-playing-habbo-item-bolder">in-depth knowledge of online safety</b>, following international guidelines set out by government groups and teen organisations.</p>
                         </div>
                     </div>
                 </div>
