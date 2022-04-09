@@ -43,8 +43,8 @@
                             <button class="page-content-user-space-right-side-item-nav-hidden-button"></button>
                         </div>
                         <div id="user-space-dropdown" class="page-content-user-space-right-side-item-dropdown-content">
-                            <a class="page-content-user-space-right-side-item-sub-text" href="#profile">My Profile</a>
-                            <a class="page-content-user-space-right-side-item-sub-text" href="#settings">Settings</a>
+                            <a class="page-content-user-space-right-side-item-sub-text" href="/profile.php">My Profile</a>
+                            <a class="page-content-user-space-right-side-item-sub-text" href="/settings_privacy.php">Settings</a>
                             <a class="page-content-user-space-right-side-item-sub-text" href="#help" target="_blank">Help</a>
                             <a class="page-content-user-space-right-side-item-sub-text" href="#logout">Logout</a>
                         </div>
@@ -71,18 +71,18 @@
                 <div class="page-content-nav-item">
                     <a class="page-content-nav-item-text">Community</a>
                     <div class="page-content-nav-item-dropdown-content">
-                        <a href="#" class="page-content-nav-item-sub-text">Photos</a>
-                        <a href="#" class="page-content-nav-item-sub-text">Rooms</a>
-                        <a href="#" class="page-content-nav-item-sub-text">Fansites</a>
-                        <a href="#" class="page-content-nav-item-sub-text">Staffs</a>
-                        <a href="#" class="page-content-nav-item-sub-text">News</a>
+                        <a href="/community/photos.php" class="page-content-nav-item-sub-text">Photos</a>
+                        <a href="/community/rooms.php" class="page-content-nav-item-sub-text">Rooms</a>
+                        <a href="/community/fansites.php" class="page-content-nav-item-sub-text">Fansites</a>
+                        <a href="/community/staffs.php" class="page-content-nav-item-sub-text">Staffs</a>
+                        <a href="/community/article.php" class="page-content-nav-item-sub-text">News</a>
                     </div>
                 </div>
                 <div class="page-content-nav-item">
-                    <a href="#" class="page-content-nav-item-text">Highscores</a>
+                    <a href="/highscores.php" class="page-content-nav-item-text">Highscores</a>
                 </div>
                 <div class="page-content-nav-item">
-                    <a href="#" class="page-content-nav-item-text">Shop</a>
+                    <a href="/shop.php" class="page-content-nav-item-text">Shop</a>
                 </div>
                 <div class="page-content-nav-item">
                     <a class="page-content-nav-item-text">Playing Habbo</a>
@@ -161,37 +161,37 @@
                         <div class="page-content-collider-content-photos">
                             <span class="page-content-collider-content-photos-promo pixelated" style="background-image: url('https://habbo-stories-content.s3.amazonaws.com/servercamera/purchased/hhtr/p-6268103-1648994843217.png')"></span>
                             <div class="page-content-collider-content-photos-bottom-side">
-                                <div class="page-content-collider-content-photos-bottom-side-avatar">
+                                <a href="profile-url" class="page-content-collider-content-photos-bottom-side-avatar">
                                     <span class="page-content-collider-content-photos-bottom-side-avatar-figure pixelated" style="background-image: url('https://www.habbo.com/habbo-imaging/avatarimage?figure=hd-3095-1.ch-255-110.lg-285-68.ha-3567-0.sh-290-1408&action=std&direction=2&head_direction=2&img_format=undefined&gesture=sml&headonly=1&size=b')"></span>
                                     <span class="page-content-collider-content-photos-bottom-side-avatar-username">Hugoyin</span>
-                                </div>
+                                </a>
                             </div>
                         </div>
                         <div class="page-content-collider-content-photos">
                             <span class="page-content-collider-content-photos-promo pixelated" style="background-image: url('https://habbo-stories-content.s3.amazonaws.com/servercamera/purchased/hhtr/p-6268103-1648994843217.png')"></span>
                             <div class="page-content-collider-content-photos-bottom-side">
-                                <div class="page-content-collider-content-photos-bottom-side-avatar">
+                                <a href="profile-url" class="page-content-collider-content-photos-bottom-side-avatar">
                                     <span class="page-content-collider-content-photos-bottom-side-avatar-figure pixelated" style="background-image: url('https://www.habbo.com/habbo-imaging/avatarimage?figure=hd-3095-1.ch-255-110.lg-285-68.ha-3567-0.sh-290-1408&action=std&direction=2&head_direction=2&img_format=undefined&gesture=sml&headonly=1&size=b')"></span>
                                     <span class="page-content-collider-content-photos-bottom-side-avatar-username">Hugoyin</span>
-                                </div>
+                                </a>
                             </div>
                         </div>
                         <div class="page-content-collider-content-photos">
                             <span class="page-content-collider-content-photos-promo pixelated" style="background-image: url('https://habbo-stories-content.s3.amazonaws.com/servercamera/purchased/hhtr/p-6268103-1648994843217.png')"></span>
                             <div class="page-content-collider-content-photos-bottom-side">
-                                <div class="page-content-collider-content-photos-bottom-side-avatar">
+                                <a href="profile-url" class="page-content-collider-content-photos-bottom-side-avatar">
                                     <span class="page-content-collider-content-photos-bottom-side-avatar-figure pixelated" style="background-image: url('https://www.habbo.com/habbo-imaging/avatarimage?figure=hd-3095-1.ch-255-110.lg-285-68.ha-3567-0.sh-290-1408&action=std&direction=2&head_direction=2&img_format=undefined&gesture=sml&headonly=1&size=b')"></span>
                                     <span class="page-content-collider-content-photos-bottom-side-avatar-username">Hugoyin</span>
-                                </div>
+                                </a>
                             </div>
                         </div>
                         <div class="page-content-collider-content-photos">
                             <span class="page-content-collider-content-photos-promo pixelated" style="background-image: url('https://habbo-stories-content.s3.amazonaws.com/servercamera/purchased/hhtr/p-6268103-1648994843217.png')"></span>
                             <div class="page-content-collider-content-photos-bottom-side">
-                                <div class="page-content-collider-content-photos-bottom-side-avatar">
+                                <a href="profile-url" class="page-content-collider-content-photos-bottom-side-avatar">
                                     <span class="page-content-collider-content-photos-bottom-side-avatar-figure pixelated" style="background-image: url('https://www.habbo.com/habbo-imaging/avatarimage?figure=hd-3095-1.ch-255-110.lg-285-68.ha-3567-0.sh-290-1408&action=std&direction=2&head_direction=2&img_format=undefined&gesture=sml&headonly=1&size=b')"></span>
                                     <span class="page-content-collider-content-photos-bottom-side-avatar-username">Hugoyin</span>
-                                </div>
+                                </a>
                             </div>
                         </div>
                     </div>

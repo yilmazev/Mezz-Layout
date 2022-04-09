@@ -210,7 +210,6 @@ font-weight: 400;}
     z-index: 2;
 }
 
-
 .page-content .page-content-user-space .page-content-user-space-left-side {
     display: flex;
 }
@@ -578,6 +577,11 @@ font-weight: 400;}
     background-color: #242c31;
 }
 
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-head .page-content-collider-head-icon.rooms {
+    background-image: url('/assets/images/collider/rooms.png');
+    background-color: #ff8200;
+}
+
 .page-content .page-content-collider .page-content-collider-item .page-content-collider-head .page-content-collider-head-column {
     display: flex;
     flex-direction: column;
@@ -604,6 +608,16 @@ font-weight: 400;}
     width: 100%;
 }
 
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content.news {
+    display: flex;
+    justify-content: center;
+flex-wrap: nowrap;height: auto;}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content.rooms {
+    display: flex;
+    flex-direction: column;
+}
+
 .page-content .page-content-collider .page-content-collider-item .page-content-collider-content.registration {
     width: 900px;
 }
@@ -613,8 +627,8 @@ font-weight: 400;}
     background: url(/assets/images/registration/background.png);
     content: '';
     display: block;
-    width: 290px;height: 350px;
-    
+    width: 290px;
+    height: 350px;
     position: absolute;
     right: 0;
     top: 0;
@@ -852,8 +866,65 @@ font-weight: 400;}
     background-color: #e5aa19;
 }
 
-.page-content .page-content-collider .page-content-collider-item .page-content-collider-content.profile {
-    background-color: asd;
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-rooms-room {
+    display: flex;
+    margin: 0 0 50px 0;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-rooms-room:last-child {
+    margin-bottom: 0;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-rooms-room .page-content-collider-content-rooms-room-image {
+    background-image: url('/assets/images/collider/default-room-image.png');
+    border-radius: 5px;
+    margin: 0 20px 0 0;
+    height: 110px;
+    width: 110px;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-rooms-room .page-content-collider-content-rooms-room-title {
+    color: #2C3039;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-rooms-room .page-content-collider-content-rooms-room-description {
+    color: #4E4E4E;
+    font-size: 14px;
+    font-weight: 400;
+    max-width: 1000px;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-rooms-room .page-content-collider-content-rooms-room-owner {
+    display: flex;
+    align-items: center;
+    margin: 10px 0 0 0;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-rooms-room .page-content-collider-content-rooms-room-owner .page-content-collider-content-rooms-room-owner-head-figure {
+    background-image: url('/assets/images/collider/public-room.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #f0f0f0;
+    border-radius: 100px;
+    height: 62px;
+    width: 62px;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-rooms-room .page-content-collider-content-rooms-room-owner .page-content-collider-content-rooms-room-owner-username {
+    background-color: #f0f0f0;
+    color: #2C3039;
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0 0 0 -5px;
+    padding: 6px 10px 5px 6px;
+    border-radius: 3px;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-rooms-room .page-content-collider-content-rooms-room-column {
+    display: flex;
+    flex-direction: column;
 }
 
 .page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-profile {
@@ -1227,7 +1298,8 @@ font-weight: 400;}
     padding: 8px 0;
     border-radius: 3px;
     margin: 0 0 25px 0;
-width: 100%;}
+    width: 100%;
+}
 
 .page-content .page-content-collider .page-content-collider-item .page-content-collider-content-settings .page-content-collider-content-settings-right-side .page-content-collider-content-settings-right-side-item {
     display: flex;
@@ -1243,7 +1315,8 @@ width: 100%;}
     align-items: flex-start;
     flex-wrap: wrap;
     height: 100%;
-margin: 0;}
+    margin: 0;
+}
 
 .page-content .page-content-collider .page-content-collider-item .page-content-collider-content-settings .page-content-collider-content-settings-right-side .page-content-collider-content-settings-right-side-item .page-content-collider-content-settings-right-side-item-avatar {
     display: flex;
@@ -1282,7 +1355,10 @@ margin: 0;}
 
 .page-content .page-content-collider .page-content-collider-item .page-content-collider-content-settings .page-content-collider-content-settings-right-side .page-content-collider-content-settings-right-side-item .page-content-collider-content-settings-right-side-item-look .page-content-collider-content-settings-right-side-item-look-text {
     color: #2c3039;
-font-size: 15px;font-weight: 500;padding-bottom: 5px;}
+    font-size: 15px;
+    font-weight: 500;
+    padding-bottom: 5px;
+}
 
 .page-content .page-content-collider .page-content-collider-item .page-content-collider-content-settings .page-content-collider-content-settings-right-side .page-content-collider-content-settings-right-side-item .page-content-collider-content-settings-right-side-item-description {
     color: #4E4E4E;
@@ -1362,6 +1438,276 @@ font-size: 15px;font-weight: 500;padding-bottom: 5px;}
 
 .page-content .page-content-collider .page-content-collider-item .page-content-collider-content-settings .page-content-collider-content-settings-right-side .page-content-collider-content-settings-right-side-default-button:active {
     background-color: #016631;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-fansites-left-side {
+    display: flex;
+    flex-direction: column;
+    width: 650px;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-fansites-left-side .page-content-collider-content-fansites-title {
+    color: #2C3039;
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-fansites-left-side .page-content-collider-content-fansites-align-right {
+    display: block;
+    float: right;
+    margin: 12px 0 12px 24px;
+    width: 235px;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-fansites-left-side .page-content-collider-content-fansites-list-space {
+    margin: 10px 0 15px 0;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-fansites-left-side .page-content-collider-content-fansites-list-space .page-content-collider-content-fansites-list-space-title {
+    color: #4E4E4E;;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-fansites-left-side .page-content-collider-content-fansites-list-space .page-content-collider-content-fansites-list-space-list .page-content-collider-content-fansites-list-space-list-error {
+    color: #f44336;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-fansites-left-side .page-content-collider-content-fansites-list-space .page-content-collider-content-fansites-list-space-list .page-content-collider-content-fansites-list-space-list-item {
+    list-style: inside;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-fansites-left-side .page-content-collider-content-fansites-list-space .page-content-collider-content-fansites-list-space-list .page-content-collider-content-fansites-list-space-list-item .page-content-collider-content-fansites-list-space-list-item-url {
+    color: #2C3039;
+    font-weight: 500;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-fansites-left-side .page-content-collider-content-fansites-paragraph {
+    color: #4E4E4E;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 10px 0;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-fansites-left-side .page-content-collider-content-fansites-paragraph:last-child {
+    margin: 0;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-fansites-left-side .page-content-collider-content-fansites-paragraph .page-content-collider-content-fansites-paragraph-url {
+    color: #2C3039;
+    font-weight: 500;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-staffs-column {
+    display: flex;
+    flex-direction: column;
+    margin: 0 30px 0 0;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-staffs-column:last-child {
+    margin: 0 0 0 0;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-staffs-column .page-content-collider-content-staffs-box {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 5px;
+    width: 396px;
+    margin: 0 0 10px 0;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-staffs-column .page-content-collider-content-staffs-box:last-child {
+    margin: 0px;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-staffs-column .page-content-collider-content-staffs-box .page-content-collider-content-staffs-box-title {
+    color: #2c3039;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 20px 0 20px;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-staffs-column .page-content-collider-content-staffs-box .page-content-collider-content-staffs-box-row {
+    display: flex;
+    padding: 15px 10px;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-staffs-column .page-content-collider-content-staffs-box .page-content-collider-content-staffs-box-figure.small {
+    height: 74px;
+    image-rendering: -webkit-optimize-contrast;}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-staffs-column .page-content-collider-content-staffs-box .page-content-collider-content-staffs-box-username {
+    color: #2C3039;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-staffs-column .page-content-collider-content-staffs-box .page-content-collider-content-staffs-box-motto {
+    color: #4e4e4e;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0 0 3px 0;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-staffs-column .page-content-collider-content-staffs-box .page-content-collider-content-staffs-box-text {
+    color: #4e4e4e;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: italic;
+    margin: 0 0 0 10px;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-staffs-column .page-content-collider-content-staffs-box .page-content-collider-content-staffs-box-status {
+    color: #2C3039;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-staffs-column .page-content-collider-content-staffs-box .page-content-collider-content-staffs-box-status.online {
+    color: #28852c;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-staffs-column .page-content-collider-content-staffs-box .page-content-collider-content-staffs-box-status.offline {
+    color: #ad2a21;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-staffs-column .page-content-collider-content-staffs-box .page-content-collider-content-staffs-box-column {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    margin: 0 50px 0 10px;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-news-left-side {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    width: 310px;
+    margin: 0 10px 0 0;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-news-left-side .page-content-collider-content-news-left-side-title {
+    color: #2C3039;
+    font-size: 19px;
+    font-weight: 600;
+    padding: 0 0 5px 0;
+    margin: 0 0 15px 0;
+    border-bottom: 1px solid #a6a6a6;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-news-left-side .page-content-collider-content-news-left-side-item {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 20px 0;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-news-left-side .page-content-collider-content-news-left-side-item:last-child {
+    margin: 0;
+}
+
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-news-left-side .page-content-collider-content-news-left-side-item .page-content-collider-content-news-left-side-item-title {
+    color: #4E4E4E;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 0 0 5px 0;
+    margin: 0 0 10px 0;
+    border-bottom: 1px dashed #a6a6a6;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-news-left-side .page-content-collider-content-news-left-side-item .page-content-collider-content-news-left-side-item-list .page-content-collider-content-news-left-side-item-list-item {
+    margin: 0 0 3px 0;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-news-left-side .page-content-collider-content-news-left-side-item .page-content-collider-content-news-left-side-item-list .page-content-collider-content-news-left-side-item-list-item .page-content-collider-content-news-left-side-item-list-url {
+    color: #eeb425;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-news-left-side .page-content-collider-content-news-left-side-item .page-content-collider-content-news-left-side-item-list .page-content-collider-content-news-left-side-item-list-item.active .page-content-collider-content-news-left-side-item-list-url {
+    color: #4e4e4e;
+}
+
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-news-left-side .page-content-collider-content-news-left-side-item .page-content-collider-content-news-left-side-item-list .page-content-collider-content-news-left-side-item-list-item .page-content-collider-content-news-left-side-item-list-url::after {
+    content: "»";
+    padding: 0 0 0 5px;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-news-left-side .page-content-collider-content-news-left-side-item .page-content-collider-content-news-left-side-item-list .page-content-collider-content-news-left-side-item-list-item .page-content-collider-content-news-left-side-item-list-url:hover {
+    text-decoration: underline;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-news-right-side {
+    margin: 0 0 0 10px;
+    width: 710px;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-news-right-side .page-content-collider-content-news-right-side-content {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px 20px 0 20px;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-news-right-side .page-content-collider-content-news-right-side-content .page-content-collider-content-news-right-side-content-title {
+    display: block;
+    color: #2C3039;
+    font-size: 19px;
+    font-weight: 600;
+    padding: 0 0 5px 0;
+    margin: 0 0 15px 0;
+    border-bottom: 1px solid #a6a6a6;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-news-right-side .page-content-collider-content-news-right-side-content p {
+    display: block;
+    color: #4E4E4E;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-news-right-side .page-content-collider-content-news-right-side-content a {
+    color: #eeb425;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-news-right-side .page-content-collider-content-news-right-side-content a:hover {
+    text-decoration: underline;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-news-right-side .page-content-collider-content-news-right-side-content li {
+    color: #4E4E4E;
+    font-size: 14px;
+    list-style: inside;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-news-right-side .page-content-collider-content-news-right-side-content .page-content-collider-content-news-right-side-content-article-author {
+    display: flex;
+    align-items: center;
+margin: 30px 0 0 0;}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-news-right-side .page-content-collider-content-news-right-side-content .page-content-collider-content-news-right-side-content-article-author .page-content-collider-content-news-right-side-content-article-author-figure {
+    display: block;
+    width: 64px;
+    height: 70px;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-news-right-side .page-content-collider-content-news-right-side-content .page-content-collider-content-news-right-side-content-article-author .page-content-collider-content-news-right-side-content-article-author-username {
+    color: #2C3039;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 20px 0 0 0;
 }
 
 .page-content .error {
@@ -1591,7 +1937,6 @@ font-size: 15px;font-weight: 500;padding-bottom: 5px;}
     text-align:center;
     background-color:#000000c4;
     border-radius:4px;
-    
 }
 
 .tooltip-arrow {

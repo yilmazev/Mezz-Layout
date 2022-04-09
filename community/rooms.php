@@ -3,9 +3,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="assets/styles/app.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <title>Registration - Habbo</title>
+    <link rel="stylesheet" type="text/css" href="/assets/styles/app.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>Virtual World, Avatar Chat and Pixel Art - Habbo</title>
 </head>
 <body class="container">
 	<script src="/assets/scripts/app.js"></script>
@@ -46,7 +46,7 @@
                 <div class="page-content-nav-item">
                     <a href="/" class="page-content-nav-item-text">Home</a>
                 </div>
-                <div class="page-content-nav-item">
+                <div class="page-content-nav-item active">
                     <a class="page-content-nav-item-text">Community</a>
                     <div class="page-content-nav-item-dropdown-content">
                         <a href="/community/photos.php" class="page-content-nav-item-sub-text">Photos</a>
@@ -76,62 +76,36 @@
         </div>
         <div class="page-content-collider">
             <div class="page-content-max-width" style="flex-direction: column;align-items: flex-start;">
-                <div class="page-content-collider-item" style="align-items: center;">
-                    <div class="page-content-collider-content registration">
-                        <div class="page-content-collider-content-registration">
-                            <h2 class="page-content-collider-content-registration-title">Create free account now!</h2>
-                            <div class="page-content-collider-content-registration-item">
-                                <label class="page-content-collider-content-registration-item-title">Email</label>
-                                <p class="page-content-collider-content-registration-item-text">You'll need to use this email address to log in to Habbo in the future. Please use a valid address.</p>
-                                <input type="email" class="page-content-collider-content-registration-item-input">
+                <div class="page-content-collider-item">
+                    <div class="page-content-collider-head">
+                        <span class="page-content-collider-head-icon rooms"></span>
+                        <div class="page-content-collider-head-column">
+                            <h2 class="page-content-collider-head-title">Rooms</h2>
+                            <p class="page-content-collider-head-description">Check out some of the most popular rooms within Habbo right now!</p>
+                        </div>
+                    </div>
+                    <div class="page-content-collider-content rooms">
+                        <div class="page-content-collider-content-rooms-room">
+                            <span class="page-content-collider-content-rooms-room-image" style="background-image: url('https://habbo-stories-content.s3.amazonaws.com/navigator-thumbnail/hhtr/11857003.png');"></span>
+                            <div class="page-content-collider-content-rooms-room-column">
+                                <h2 class="page-content-collider-content-rooms-room-title">Welcome Lobby</h2>
+                                <p class="page-content-collider-content-rooms-room-description"></p>
+                                <a href="profile-url" class="page-content-collider-content-rooms-room-owner">
+                                    <span class="page-content-collider-content-rooms-room-owner-head-figure" style="background-image: url('/assets/images/collider/public-room.png');"></span>
+                                    <p class="page-content-collider-content-rooms-room-owner-username">Public Room</p>
+                                </a>
                             </div>
-                            <div class="page-content-collider-content-registration-item">
-                                <label class="page-content-collider-content-registration-item-title">Password</label>
-                                <p class="page-content-collider-content-registration-item-text">Use at least 6 characters. Include at least one letter and at least one number or special character.</p>
-                                <input type="password" class="page-content-collider-content-registration-item-input">
-                                <input type="password" class="page-content-collider-content-registration-item-input">
+                        </div>
+                        <div class="page-content-collider-content-rooms-room">
+                            <span class="page-content-collider-content-rooms-room-image" style="background-image: url('/assets/images/collider/default-room-image.png');"></span>
+                            <div class="page-content-collider-content-rooms-room-column">
+                                <h2 class="page-content-collider-content-rooms-room-title">Test Room</h2>
+                                <p class="page-content-collider-content-rooms-room-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim unde reiciendis quisquam ea vitae et rem pariatur aperiam iure eligendi deleniti aliquam repellat quia quod optio quo dolorem, reprehenderit similique.</p>
+                                <a href="profile-url" class="page-content-collider-content-rooms-room-owner">
+                                    <span class="page-content-collider-content-rooms-room-owner-head-figure" style="background-image: url('https://www.habbo.com/habbo-imaging/avatarimage?figure=hd-3095-1.ch-255-110.lg-285-68.ha-3567-0.sh-290-1408&action=std&direction=2&head_direction=2&img_format=undefined&gesture=sml&headonly=1&size=b');"></span>
+                                    <p class="page-content-collider-content-rooms-room-owner-username">Hugoyin</p>
+                                </a>
                             </div>
-                            <div class="page-content-collider-content-registration-item">
-                                <label class="page-content-collider-content-registration-item-title">Birthdate</label>
-                                <p class="page-content-collider-content-registration-item-text">Please enter your real birth date. We will use this information to restore your account if you ever lose access. Your birth date will never be shared publicly. Please note you have to be aged 13 years or above to play Habbo!</p>
-                                <div class="page-content-collider-content-registration-item-column">
-                                    <select class="page-content-collider-content-registration-item-select">
-                                        <?php
-                                        echo '<option>Day</option>';
-										for($i = 1; $i <= 31; $i++) {
-											echo "<option>$i</option>";
-										} 
-                                        ?>
-                                    </select>
-									<select class="page-content-collider-content-registration-item-select">
-                                        <?php
-                                        echo '<option>Month</option>';
-										for($i = 1; $i <= 12; $i++) {
-											echo "<option>$i</option>";
-										} 
-                                        ?>
-                                    </select>
-									<select class="page-content-collider-content-registration-item-select">
-                                        <?php
-                                        echo '<option>Year</option>';
-										for($i = 1970; $i <= 2022; $i++) {
-											echo "<option>$i</option>";
-										} 
-                                        ?>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="page-content-collider-content-registration-item">
-                                <div class="page-content-collider-content-registration-item-column">
-                                    <input type="checkbox" class="page-content-collider-content-registration-item-checkbox">
-                                    <p class="page-content-collider-content-registration-item-text">I accept the <a class="page-content-collider-content-registration-item-href" href="#" target="_blank">terms of service</a>, <a class="page-content-collider-content-registration-item-href" href="#" target="_blank">privacy policy</a> and <a class="page-content-collider-content-registration-item-href" href="#" target="_blank">cookie policy</a>.</p>
-                                </div>
-                                <div class="page-content-collider-content-registration-item-column">
-                                    <input type="checkbox" class="page-content-collider-content-registration-item-checkbox">
-                                    <p class="page-content-collider-content-registration-item-text">Keep me updated about the latest Habbo happenings, news and gossip!</p>
-                                </div>
-                            </div>
-                            <button class="page-content-collider-content-registration-button">Let's make an avatar</button>
                         </div>
                     </div>
                 </div>

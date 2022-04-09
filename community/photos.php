@@ -43,10 +43,10 @@
         </div>
         <div class="page-content-nav">
             <div class="page-content-max-width" style="justify-content: flex-start;">
-                <div class="page-content-nav-item active">
+                <div class="page-content-nav-item">
                     <a href="/" class="page-content-nav-item-text">Home</a>
                 </div>
-                <div class="page-content-nav-item">
+                <div class="page-content-nav-item active">
                     <a class="page-content-nav-item-text">Community</a>
                     <div class="page-content-nav-item-dropdown-content">
                         <a href="/community/photos.php" class="page-content-nav-item-sub-text">Photos</a>
@@ -78,65 +78,104 @@
             <div class="page-content-max-width" style="flex-direction: column;align-items: flex-start;">
                 <div class="page-content-collider-item">
                     <div class="page-content-collider-head">
-                        <span class="page-content-collider-head-icon news"></span>
-                        <div class="page-content-collider-head-column">
-                            <h2 class="page-content-collider-head-title">Last News</h2>
-                            <p class="page-content-collider-head-description">Keep up to date with the latest hotel gossip.</p>
-                        </div>
-                    </div>
-                    <div class="page-content-collider-content">
-                        <a href="" class="page-content-collider-content-article">
-                            <span class="page-content-collider-content-article-promo pixelated" style="background-image: url('https://images.habbo.com/web_images/habbo-web-articles/lpromo_habboexpress_generic.png')"></span>
-                            <h2 class="page-content-collider-content-article-title">Red VS Blue</h2>
-                            <div class="page-content-collider-content-article-bottom-side">
-                                <div class="page-content-collider-content-article-bottom-side-avatar">
-                                    <span class="page-content-collider-content-article-bottom-side-avatar-figure pixelated" style="background-image: url('https://www.habbo.com/habbo-imaging/avatarimage?figure=hd-3095-1.ch-255-110.lg-285-68.ha-3567-0.sh-290-1408&action=std&direction=2&head_direction=2&img_format=undefined&gesture=sml&headonly=1&size=b')"></span>
-                                    <span class="page-content-collider-content-article-bottom-side-avatar-username">Hugoyin</span>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="" class="page-content-collider-content-article">
-                            <span class="page-content-collider-content-article-promo pixelated" style="background-image: url('https://images.habbo.com/web_images/habbo-web-articles/lpromo_habboexpress_generic.png')"></span>
-                            <h2 class="page-content-collider-content-article-title">Red VS Blue</h2>
-                            <div class="page-content-collider-content-article-bottom-side">
-                                <div class="page-content-collider-content-article-bottom-side-avatar">
-                                    <span class="page-content-collider-content-article-bottom-side-avatar-figure pixelated" style="background-image: url('https://www.habbo.com/habbo-imaging/avatarimage?figure=hd-3095-1.ch-255-110.lg-285-68.ha-3567-0.sh-290-1408&action=std&direction=2&head_direction=2&img_format=undefined&gesture=sml&headonly=1&size=b')"></span>
-                                    <span class="page-content-collider-content-article-bottom-side-avatar-username">Hugoyin</span>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="" class="page-content-collider-content-article">
-                            <span class="page-content-collider-content-article-promo pixelated" style="background-image: url('https://images.habbo.com/web_images/habbo-web-articles/lpromo_habboexpress_generic.png')"></span>
-                            <h2 class="page-content-collider-content-article-title">Red VS Blue</h2>
-                            <div class="page-content-collider-content-article-bottom-side">
-                                <div class="page-content-collider-content-article-bottom-side-avatar">
-                                    <span class="page-content-collider-content-article-bottom-side-avatar-figure pixelated" style="background-image: url('https://www.habbo.com/habbo-imaging/avatarimage?figure=hd-3095-1.ch-255-110.lg-285-68.ha-3567-0.sh-290-1408&action=std&direction=2&head_direction=2&img_format=undefined&gesture=sml&headonly=1&size=b')"></span>
-                                    <span class="page-content-collider-content-article-bottom-side-avatar-username">Hugoyin</span>
-                                </div>
-                            </div>
-                        </a>
-                        <a href="" class="page-content-collider-content-article">
-                            <span class="page-content-collider-content-article-promo pixelated" style="background-image: url('https://images.habbo.com/web_images/habbo-web-articles/lpromo_habboexpress_generic.png')"></span>
-                            <h2 class="page-content-collider-content-article-title">Red VS Blue</h2>
-                            <div class="page-content-collider-content-article-bottom-side">
-                                <div class="page-content-collider-content-article-bottom-side-avatar">
-                                    <span class="page-content-collider-content-article-bottom-side-avatar-figure pixelated" style="background-image: url('https://www.habbo.com/habbo-imaging/avatarimage?figure=hd-3095-1.ch-255-110.lg-285-68.ha-3567-0.sh-290-1408&action=std&direction=2&head_direction=2&img_format=undefined&gesture=sml&headonly=1&size=b')"></span>
-                                    <span class="page-content-collider-content-article-bottom-side-avatar-username">Hugoyin</span>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="page-content-collider-item">
-                    <div class="page-content-collider-head">
                         <span class="page-content-collider-head-icon camera"></span>
                         <div class="page-content-collider-head-column">
-                            <h2 class="page-content-collider-head-title">Last Photos</h2>
+                            <h2 class="page-content-collider-head-title">Photos</h2>
                             <p class="page-content-collider-head-description">Have a look at some of the great moments captured by Habbos around the hotel.</p>
                         </div>
                     </div>
                     <div class="page-content-collider-content">
                         <div class="page-content-collider-content-photos">
+                            <span class="page-content-collider-content-photos-promo pixelated" style="background-image: url('https://habbo-stories-content.s3.amazonaws.com/servercamera/purchased/hhtr/p-6268103-1648994843217.png')"></span>
+                            <div class="page-content-collider-content-photos-bottom-side">
+                                <a href="profile-url" class="page-content-collider-content-photos-bottom-side-avatar">
+                                    <span class="page-content-collider-content-photos-bottom-side-avatar-figure pixelated" style="background-image: url('https://www.habbo.com/habbo-imaging/avatarimage?figure=hd-3095-1.ch-255-110.lg-285-68.ha-3567-0.sh-290-1408&action=std&direction=2&head_direction=2&img_format=undefined&gesture=sml&headonly=1&size=b')"></span>
+                                    <span class="page-content-collider-content-photos-bottom-side-avatar-username">Hugoyin</span>
+                                </a>
+                            </div>
+                        </div>
+						<div class="page-content-collider-content-photos">
+                            <span class="page-content-collider-content-photos-promo pixelated" style="background-image: url('https://habbo-stories-content.s3.amazonaws.com/servercamera/purchased/hhtr/p-6268103-1648994843217.png')"></span>
+                            <div class="page-content-collider-content-photos-bottom-side">
+                                <a href="profile-url" class="page-content-collider-content-photos-bottom-side-avatar">
+                                    <span class="page-content-collider-content-photos-bottom-side-avatar-figure pixelated" style="background-image: url('https://www.habbo.com/habbo-imaging/avatarimage?figure=hd-3095-1.ch-255-110.lg-285-68.ha-3567-0.sh-290-1408&action=std&direction=2&head_direction=2&img_format=undefined&gesture=sml&headonly=1&size=b')"></span>
+                                    <span class="page-content-collider-content-photos-bottom-side-avatar-username">Hugoyin</span>
+                                </a>
+                            </div>
+                        </div>
+						<div class="page-content-collider-content-photos">
+                            <span class="page-content-collider-content-photos-promo pixelated" style="background-image: url('https://habbo-stories-content.s3.amazonaws.com/servercamera/purchased/hhtr/p-6268103-1648994843217.png')"></span>
+                            <div class="page-content-collider-content-photos-bottom-side">
+                                <a href="profile-url" class="page-content-collider-content-photos-bottom-side-avatar">
+                                    <span class="page-content-collider-content-photos-bottom-side-avatar-figure pixelated" style="background-image: url('https://www.habbo.com/habbo-imaging/avatarimage?figure=hd-3095-1.ch-255-110.lg-285-68.ha-3567-0.sh-290-1408&action=std&direction=2&head_direction=2&img_format=undefined&gesture=sml&headonly=1&size=b')"></span>
+                                    <span class="page-content-collider-content-photos-bottom-side-avatar-username">Hugoyin</span>
+                                </a>
+                            </div>
+                        </div>
+						<div class="page-content-collider-content-photos">
+                            <span class="page-content-collider-content-photos-promo pixelated" style="background-image: url('https://habbo-stories-content.s3.amazonaws.com/servercamera/purchased/hhtr/p-6268103-1648994843217.png')"></span>
+                            <div class="page-content-collider-content-photos-bottom-side">
+                                <a href="profile-url" class="page-content-collider-content-photos-bottom-side-avatar">
+                                    <span class="page-content-collider-content-photos-bottom-side-avatar-figure pixelated" style="background-image: url('https://www.habbo.com/habbo-imaging/avatarimage?figure=hd-3095-1.ch-255-110.lg-285-68.ha-3567-0.sh-290-1408&action=std&direction=2&head_direction=2&img_format=undefined&gesture=sml&headonly=1&size=b')"></span>
+                                    <span class="page-content-collider-content-photos-bottom-side-avatar-username">Hugoyin</span>
+                                </a>
+                            </div>
+                        </div>
+						<div class="page-content-collider-content-photos">
+                            <span class="page-content-collider-content-photos-promo pixelated" style="background-image: url('https://habbo-stories-content.s3.amazonaws.com/servercamera/purchased/hhtr/p-6268103-1648994843217.png')"></span>
+                            <div class="page-content-collider-content-photos-bottom-side">
+                                <a href="profile-url" class="page-content-collider-content-photos-bottom-side-avatar">
+                                    <span class="page-content-collider-content-photos-bottom-side-avatar-figure pixelated" style="background-image: url('https://www.habbo.com/habbo-imaging/avatarimage?figure=hd-3095-1.ch-255-110.lg-285-68.ha-3567-0.sh-290-1408&action=std&direction=2&head_direction=2&img_format=undefined&gesture=sml&headonly=1&size=b')"></span>
+                                    <span class="page-content-collider-content-photos-bottom-side-avatar-username">Hugoyin</span>
+                                </a>
+                            </div>
+                        </div>
+						<div class="page-content-collider-content-photos">
+                            <span class="page-content-collider-content-photos-promo pixelated" style="background-image: url('https://habbo-stories-content.s3.amazonaws.com/servercamera/purchased/hhtr/p-6268103-1648994843217.png')"></span>
+                            <a class="page-content-collider-content-photos-bottom-side">
+                                <a href="profile-url" class="page-content-collider-content-photos-bottom-side-avatar">
+                                    <span class="page-content-collider-content-photos-bottom-side-avatar-figure pixelated" style="background-image: url('https://www.habbo.com/habbo-imaging/avatarimage?figure=hd-3095-1.ch-255-110.lg-285-68.ha-3567-0.sh-290-1408&action=std&direction=2&head_direction=2&img_format=undefined&gesture=sml&headonly=1&size=b')"></span>
+                                    <span class="page-content-collider-content-photos-bottom-side-avatar-username">Hugoyin</span>
+                                </a>
+                            </a>
+                        </div>
+						<div class="page-content-collider-content-photos">
+                            <span class="page-content-collider-content-photos-promo pixelated" style="background-image: url('https://habbo-stories-content.s3.amazonaws.com/servercamera/purchased/hhtr/p-6268103-1648994843217.png')"></span>
+                            <div class="page-content-collider-content-photos-bottom-side">
+                                <a href="profile-url" class="page-content-collider-content-photos-bottom-side-avatar">
+                                    <span class="page-content-collider-content-photos-bottom-side-avatar-figure pixelated" style="background-image: url('https://www.habbo.com/habbo-imaging/avatarimage?figure=hd-3095-1.ch-255-110.lg-285-68.ha-3567-0.sh-290-1408&action=std&direction=2&head_direction=2&img_format=undefined&gesture=sml&headonly=1&size=b')"></span>
+                                    <span class="page-content-collider-content-photos-bottom-side-avatar-username">Hugoyin</span>
+                                </a>
+                            </div>
+                        </div>
+						<div class="page-content-collider-content-photos">
+                            <span class="page-content-collider-content-photos-promo pixelated" style="background-image: url('https://habbo-stories-content.s3.amazonaws.com/servercamera/purchased/hhtr/p-6268103-1648994843217.png')"></span>
+                            <div class="page-content-collider-content-photos-bottom-side">
+                                <a href="profile-url" class="page-content-collider-content-photos-bottom-side-avatar">
+                                    <span class="page-content-collider-content-photos-bottom-side-avatar-figure pixelated" style="background-image: url('https://www.habbo.com/habbo-imaging/avatarimage?figure=hd-3095-1.ch-255-110.lg-285-68.ha-3567-0.sh-290-1408&action=std&direction=2&head_direction=2&img_format=undefined&gesture=sml&headonly=1&size=b')"></span>
+                                    <span class="page-content-collider-content-photos-bottom-side-avatar-username">Hugoyin</span>
+                                </a>
+                            </div>
+                        </div>
+						<div class="page-content-collider-content-photos">
+                            <span class="page-content-collider-content-photos-promo pixelated" style="background-image: url('https://habbo-stories-content.s3.amazonaws.com/servercamera/purchased/hhtr/p-6268103-1648994843217.png')"></span>
+                            <div class="page-content-collider-content-photos-bottom-side">
+                                <a href="profile-url" class="page-content-collider-content-photos-bottom-side-avatar">
+                                    <span class="page-content-collider-content-photos-bottom-side-avatar-figure pixelated" style="background-image: url('https://www.habbo.com/habbo-imaging/avatarimage?figure=hd-3095-1.ch-255-110.lg-285-68.ha-3567-0.sh-290-1408&action=std&direction=2&head_direction=2&img_format=undefined&gesture=sml&headonly=1&size=b')"></span>
+                                    <span class="page-content-collider-content-photos-bottom-side-avatar-username">Hugoyin</span>
+                                </a>
+                            </div>
+                        </div>
+						<div class="page-content-collider-content-photos">
+                            <span class="page-content-collider-content-photos-promo pixelated" style="background-image: url('https://habbo-stories-content.s3.amazonaws.com/servercamera/purchased/hhtr/p-6268103-1648994843217.png')"></span>
+                            <div class="page-content-collider-content-photos-bottom-side">
+                                <a href="profile-url" class="page-content-collider-content-photos-bottom-side-avatar">
+                                    <span class="page-content-collider-content-photos-bottom-side-avatar-figure pixelated" style="background-image: url('https://www.habbo.com/habbo-imaging/avatarimage?figure=hd-3095-1.ch-255-110.lg-285-68.ha-3567-0.sh-290-1408&action=std&direction=2&head_direction=2&img_format=undefined&gesture=sml&headonly=1&size=b')"></span>
+                                    <span class="page-content-collider-content-photos-bottom-side-avatar-username">Hugoyin</span>
+                                </a>
+                            </div>
+                        </div>
+						<div class="page-content-collider-content-photos">
                             <span class="page-content-collider-content-photos-promo pixelated" style="background-image: url('https://habbo-stories-content.s3.amazonaws.com/servercamera/purchased/hhtr/p-6268103-1648994843217.png')"></span>
                             <div class="page-content-collider-content-photos-bottom-side">
                                 <a href="profile-url" class="page-content-collider-content-photos-bottom-side-avatar">
