@@ -17,10 +17,10 @@
 
 ✔️ Playing Habbo pages
 
+✔️ Shop page
+
 ## To Do
 ❌ Highscores page
-
-❌ Shop page
 
 ❌ Help center
 
