@@ -24,16 +24,20 @@
 }
 
 ::placeholder {
-  color: #626565;
-  opacity: 1;
+    color: #626565;
+    opacity: 1;
 }
 
 :-ms-input-placeholder {
-  color: #626565;
+    color: #626565;
 }
 
 ::-ms-input-placeholder {
-  color: #626565;
+    color: #626565;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 img {
@@ -1653,7 +1657,8 @@ button, input[type=button], a, .page-content-nav-item {
 
 .page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-staffs-column .page-content-collider-content-staffs-box .page-content-collider-content-staffs-box-figure.small {
     height: 74px;
-    image-rendering: -webkit-optimize-contrast;}
+    image-rendering: -webkit-optimize-contrast;
+}
 
 .page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-staffs-column .page-content-collider-content-staffs-box .page-content-collider-content-staffs-box-username {
     color: #2C3039;
@@ -1727,7 +1732,6 @@ button, input[type=button], a, .page-content-nav-item {
     margin: 0;
 }
 
-
 .page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-news-left-side .page-content-collider-content-news-left-side-item .page-content-collider-content-news-left-side-item-title {
     color: #4E4E4E;
     font-size: 15px;
@@ -1753,7 +1757,7 @@ button, input[type=button], a, .page-content-nav-item {
 
 
 .page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-news-left-side .page-content-collider-content-news-left-side-item .page-content-collider-content-news-left-side-item-list .page-content-collider-content-news-left-side-item-list-item .page-content-collider-content-news-left-side-item-list-url::after {
-    content: "ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â»";
+    content: "ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â»";
     padding: 0 0 0 5px;
 }
 
@@ -1853,7 +1857,8 @@ button, input[type=button], a, .page-content-nav-item {
 .page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-left-side {
     display: flex;
     flex-direction: column;
-width: 90%;}
+    width: 90%;
+}
 
 .page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-right-side {
     display: flex;
@@ -1905,6 +1910,493 @@ width: 90%;margin-left: 10%;}
 .page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-playing-habbo-item .page-content-collider-content-playing-habbo-item-image {
     display: inline-block;
     float: right;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .--icon-1 {
+    background-image: url('/assets/images/shop/habbo-club.png');
+    height: 90px;
+    width: 74px;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .--icon-2 {
+    background-image: url('/assets/images/shop/builder-club.png');
+    height: 58px;
+    width: 98px;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .--icon-3 {
+    background-image: url('/assets/images/shop/bundle.png');
+    height: 94px;
+    width: 86px;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .--icon-4 {
+    background-image: url('/assets/images/shop/15c_15d.png');
+    height: 57px;
+    width: 49px;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .--icon-5 {
+    background-image: url('/assets/images/shop/30c_30d.png');
+    height: 66px;
+    width: 61px;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .--icon-6 {
+    background-image: url('/assets/images/shop/45c_45d.png');
+    height: 66px;
+    width: 87px;
+}
+
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .--icon-7 {
+    background-image: url('/assets/images/shop/55c_55d.png');
+    height: 73px;
+    width: 87px;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .--icon-8 {
+    background-image: url('/assets/images/shop/special-offers/230c_230d.png');
+    height: 140px;
+    width: 240px;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .--s-icon-8 {
+    background-image: url('/assets/images/shop/special-offers/230c_230d_small.png');
+    height: 98px;
+    width: 98px;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .--icon-9 {
+    background-image: url('/assets/images/shop/110c_110d.png');
+    height: 92px;
+    width: 84px;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .--icon-10 {
+    background-image: url('/assets/images/shop/630c_630d.png');
+    height: 95px;
+    width: 95px;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-shop-title {
+    color: #2C3039;
+    font-size: 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 0 0 20px 0;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-shop-column {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-shop-left-side {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-shop-left-side .page-content-collider-content-shop-left-side-special-offer {
+    margin: 0 0 30px 0;
+    border-radius: 3px;
+    overflow: hidden;
+    padding: 20px 15px;
+    background-color: #e5e5e5;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-shop-left-side .page-content-collider-content-shop-left-side-special-offer .page-content-collider-content-shop-left-side-special-offer-item {
+    position: relative;
+margin: 0 0 20px 0;}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-shop-left-side .page-content-collider-content-shop-left-side-special-offer .page-content-collider-content-shop-left-side-special-offer-item .page-content-collider-content-shop-left-side-special-offer-item-head {
+    background-color: #000;
+    border-radius: 3px;
+    box-shadow: 0 4px rgb(0 0 0 / 12%), inset 0 6px #52545d;
+    padding: 6px;
+    text-align: center;
+    position: absolute;top: 0;
+    right: 0;
+    left: 0;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-shop-left-side .page-content-collider-content-shop-left-side-special-offer .page-content-collider-content-shop-left-side-special-offer-item .page-content-collider-content-shop-left-side-special-offer-item-head .page-content-collider-content-shop-left-side-special-offer-item-head-title {
+    color: #fff;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-shop-left-side .page-content-collider-content-shop-left-side-special-offer .page-content-collider-content-shop-left-side-special-offer-item .page-content-collider-content-shop-left-side-special-offer-item-body {
+    background-color: #ffba00;
+    box-shadow: inset 0 11px rgb(255 255 255 / 50%), inset 0 0 0 6px #ffea00, 0 5px rgb(0 0 0 / 30%);
+    border: 2px solid #000;
+    border-radius: 5px;
+    color: #000;
+    cursor: pointer;
+    padding: 50px 16px 50px 16px;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-shop-left-side .page-content-collider-content-shop-left-side-special-offer .page-content-collider-content-shop-left-side-special-offer-item .page-content-collider-content-shop-left-side-special-offer-item-body:hover, .page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-shop-left-side .page-content-collider-content-shop-left-side-special-offer .page-content-collider-content-shop-left-side-special-offer-item.active .page-content-collider-content-shop-left-side-special-offer-item-body {
+    background-color: #ffea00;
+    box-shadow: inset 0 11px rgb(255 255 255 / 50%), inset 0 0 0 6px #fff, 0 5px rgb(0 0 0 / 30%);
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-shop-left-side .page-content-collider-content-shop-left-side-special-offer .page-content-collider-content-shop-left-side-special-offer-item .page-content-collider-content-shop-left-side-special-offer-item-body .page-content-collider-content-shop-left-side-special-offer-item-body-row {
+    display: flex;
+    align-items: center;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-shop-left-side .page-content-collider-content-shop-left-side-special-offer .page-content-collider-content-shop-left-side-special-offer-item .page-content-collider-content-shop-left-side-special-offer-item-body .page-content-collider-content-shop-left-side-special-offer-item-body-row .page-content-collider-content-shop-left-side-special-offer-item-body-icon {
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 20px 0 0;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-shop-left-side .page-content-collider-content-shop-left-side-special-offer .page-content-collider-content-shop-left-side-special-offer-item .page-content-collider-content-shop-left-side-special-offer-item-body .page-content-collider-content-shop-left-side-special-offer-item-body-row .page-content-collider-content-shop-left-side-special-offer-item-body-title {
+    color: #000;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-shop-left-side .page-content-collider-content-shop-left-side-special-offer .page-content-collider-content-shop-left-side-special-offer-item .page-content-collider-content-shop-left-side-special-offer-item-body .page-content-collider-content-shop-left-side-special-offer-item-body-row .page-content-collider-content-shop-left-side-special-offer-item-body-description {
+    color: #000;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-shop-left-side .page-content-collider-content-shop-left-side-special-offer .page-content-collider-content-shop-left-side-special-offer-item .page-content-collider-content-shop-left-side-special-offer-item-body .page-content-collider-content-shop-left-side-special-offer-item-body-row .page-content-collider-content-shop-left-side-special-offer-item-body-column {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-shop-left-side .page-content-collider-content-shop-left-side-special-offer .page-content-collider-content-shop-left-side-special-offer-item .page-content-collider-content-shop-left-side-special-offer-item-body .page-content-collider-content-shop-left-side-special-offer-item-body-price {
+    background-color: rgba(0,0,0,.2);
+    position: absolute;
+    bottom: 6px;
+    right: 6px;
+    left: 6px;
+    text-align: center;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-shop-left-side .page-content-collider-content-shop-left-side-special-offer .page-content-collider-content-shop-left-side-special-offer-item .page-content-collider-content-shop-left-side-special-offer-item-body .page-content-collider-content-shop-left-side-special-offer-item-body-price::after {
+    background-image: url(/assets/images/shop/icon.png);
+    width: 18px;
+    height: 10px;
+    content: '';
+    display: block;
+    margin-top: -4px;
+    position: absolute;
+    right: 12px;
+    top: 50%;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-shop-left-side .page-content-collider-content-shop-left-side-special-offer .page-content-collider-content-shop-left-side-special-offer-item .page-content-collider-content-shop-left-side-special-offer-item-body .page-content-collider-content-shop-left-side-special-offer-item-body-price .page-content-collider-content-shop-left-side-products-item-body-price-text {
+    color: #000;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-shop-left-side .page-content-collider-content-shop-left-side-products {
+    border-radius: 3px;
+    overflow: hidden;
+    padding: 20px 15px;
+    margin: 0 0 30px 0;
+    background-color: #e5e5e5;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-shop-left-side .page-content-collider-content-shop-left-side-products .page-content-collider-content-shop-left-side-products-title {
+    color: #2C3039;
+    font-size: 21px;
+    font-weight: 600;
+    padding: 0 0 20px 0;}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-shop-left-side .page-content-collider-content-shop-left-side-products .page-content-collider-content-shop-left-side-products-list {
+    display: flex;
+    justify-content: space-between;flex-wrap: wrap;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-shop-left-side .page-content-collider-content-shop-left-side-products .page-content-collider-content-shop-left-side-products-list .page-content-collider-content-shop-left-side-products-list-item {
+    background-color: #528fb4;
+    border: 2px solid #000;
+    border-radius: 5px;
+    box-shadow: inset 0 11px rgb(255 255 255 / 50%), inset 0 0 0 6px #7bc6ea, 0 5px rgb(0 0 0 / 30%);
+    color: #000;
+    cursor: pointer;
+    padding: 20px 15px 45px 15px;
+    margin: 0 0 20px 0;height: 160px;width: 370px;position: relative;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-shop-left-side .page-content-collider-content-shop-left-side-products .page-content-collider-content-shop-left-side-products-list .page-content-collider-content-shop-left-side-products-list-item:nth-of-type(2n+0) {
+    margin-right: 0;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-shop-left-side .page-content-collider-content-shop-left-side-products .page-content-collider-content-shop-left-side-products-list .page-content-collider-content-shop-left-side-products-list-item:hover, .page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-shop-left-side .page-content-collider-content-shop-left-side-products .page-content-collider-content-shop-left-side-products-list .page-content-collider-content-shop-left-side-products-list-item.active {
+    background-color: #7bc6ea;
+    box-shadow: inset 0 11px rgb(255 255 255 / 50%), inset 0 0 0 6px #fff, 0 5px rgb(0 0 0 / 30%);
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-shop-left-side .page-content-collider-content-shop-left-side-products .page-content-collider-content-shop-left-side-products-list .page-content-collider-content-shop-left-side-products-list-item .page-content-collider-content-shop-left-side-products-list-item-column {
+    display: flex;
+    align-items: center;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-shop-left-side .page-content-collider-content-shop-left-side-products .page-content-collider-content-shop-left-side-products-list .page-content-collider-content-shop-left-side-products-list-item .page-content-collider-content-shop-left-side-products-list-item-icon {
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 20px 0 0;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-shop-left-side .page-content-collider-content-shop-left-side-products .page-content-collider-content-shop-left-side-products-list .page-content-collider-content-shop-left-side-products-list-item .page-content-collider-content-shop-left-side-products-list-item-name {
+    color: #000;
+    font-size: 19px;
+    font-weight: 500;
+    text-align: left;
+    width: 215px;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-shop-left-side .page-content-collider-content-shop-left-side-products .page-content-collider-content-shop-left-side-products-list .page-content-collider-content-shop-left-side-products-list-item .page-content-collider-content-shop-left-side-products-list-item-price {
+    background-color: rgba(0,0,0,.2);
+    position: absolute;
+    left: 6px;
+    bottom: 6px;
+    right: 6px;
+    text-align: center;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-shop-left-side .page-content-collider-content-shop-left-side-products .page-content-collider-content-shop-left-side-products-list .page-content-collider-content-shop-left-side-products-list-item .page-content-collider-content-shop-left-side-products-list-item-price::after {
+    background-image: url(/assets/images/shop/icon.png);
+    width: 18px;
+    height: 10px;
+    content: '';
+    display: block;
+    margin-top: -4px;
+    position: absolute;
+    right: 12px;
+    top: 50%;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-shop-left-side .page-content-collider-content-shop-left-side-products .page-content-collider-content-shop-left-side-products-list .page-content-collider-content-shop-left-side-products-list-item .page-content-collider-content-shop-left-side-products-list-item-price .page-content-collider-content-shop-left-side-products-list-item-price-text {
+    color: #000;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-shop-left-side .page-content-collider-content-shop-left-side-products-list-item-product-payment-details-absolute {
+    display: none;
+    height: 100%;
+    width: 100px;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-shop-left-side .page-content-collider-content-shop-left-side-products .page-content-collider-content-shop-left-side-products-list .page-content-collider-content-shop-left-side-products-list-wrapper:nth-of-type(2n+0) .page-content-collider-content-shop-left-side-products-list-item-product-payment-details-absolute {
+    margin-left: -401px;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-shop-left-side .page-content-collider-content-shop-left-side-products-list-item-product-payment-details {
+    height: 100%;
+    width: 770px;
+    display: block;
+    background-color: #e5e5e5;
+    margin: 0 0 30px 0;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-shop-left-side .page-content-collider-content-shop-left-side-products-list-item-product-payment-details .page-content-collider-content-shop-left-side-products-list-item-product-payment-details-icon-space {
+    float: left;
+    height: 100%;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-shop-left-side .page-content-collider-content-shop-left-side-products-list-item-product-payment-details .page-content-collider-content-shop-left-side-products-list-item-product-payment-details-icon-space .page-content-collider-content-shop-left-side-products-list-item-product-payment-details-icon-space-icon {
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 15px 20px 0 0;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-shop-left-side .page-content-collider-content-shop-left-side-products-list-item-product-payment-details .page-content-collider-content-shop-left-side-products-list-item-product-payment-details-information {
+    display: flex;
+    flex-direction: column;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-shop-left-side .page-content-collider-content-shop-left-side-products-list-item-product-payment-details .page-content-collider-content-shop-left-side-products-list-item-product-payment-details-information .page-content-collider-content-shop-left-side-products-list-item-product-payment-details-information-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-shop-left-side .page-content-collider-content-shop-left-side-products-list-item-product-payment-details-information .page-content-collider-content-shop-left-side-products-list-item-product-payment-details-information-head .page-content-collider-content-shop-left-side-products-list-item-product-payment-details-information-head-title {
+    color: #2C3039;
+    font-size: 23px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-shop-left-side .page-content-collider-content-shop-left-side-products-list-item-product-payment-details-information-head .page-content-collider-content-shop-left-side-products-list-item-product-payment-details-information-head-price {
+    color: #2C3039;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-shop-left-side .page-content-collider-content-shop-left-side-products-list-item-product-payment-details .page-content-collider-content-shop-left-side-products-list-item-product-payment-details-information .page-content-collider-content-shop-left-side-products-list-item-product-payment-details-information-description {
+    color: #4E4E4E;
+    font-size: 15px;
+    font-weight: 500;
+    margin: 0 0 15px 0;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-shop-left-side .page-content-collider-content-shop-left-side-products-list-item-product-payment-details .page-content-collider-content-shop-left-side-products-list-item-product-payment-details-information .page-content-collider-content-shop-left-side-products-list-item-product-payment-details-information-steps {
+    display: flex;
+    flex-direction: column;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-shop-left-side .page-content-collider-content-shop-left-side-products-list-item-product-payment-details .page-content-collider-content-shop-left-side-products-list-item-product-payment-details-information .page-content-collider-content-shop-left-side-products-list-item-product-payment-details-information-steps .page-content-collider-content-shop-left-side-products-list-item-product-payment-details-information-steps-item {
+    list-style: devanagari;
+    margin: 0 0 15px 15px;
+    color: #2C3039;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-shop-left-side .page-content-collider-content-shop-left-side-products-list-item-product-payment-details .page-content-collider-content-shop-left-side-products-list-item-product-payment-details-information .page-content-collider-content-shop-left-side-products-list-item-product-payment-details-information-steps .page-content-collider-content-shop-left-side-products-list-item-product-payment-details-information-steps-item .page-content-collider-content-shop-left-side-products-list-item-product-payment-details-information-steps-item-title {
+    color: #2C3039;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 0 0 5px 0;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-shop-left-side .page-content-collider-content-shop-left-side-products-list-item-product-payment-details .page-content-collider-content-shop-left-side-products-list-item-product-payment-details-information .page-content-collider-content-shop-left-side-products-list-item-product-payment-details-information-steps .page-content-collider-content-shop-left-side-products-list-item-product-payment-details-information-steps-item .page-content-collider-content-shop-left-side-products-list-item-product-payment-details-information-steps-item-avatar {
+    color: #4E4E4E;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-shop-left-side .page-content-collider-content-shop-left-side-products-list-item-product-payment-details .page-content-collider-content-shop-left-side-products-list-item-product-payment-details-information .page-content-collider-content-shop-left-side-products-list-item-product-payment-details-information-steps .page-content-collider-content-shop-left-side-products-list-item-product-payment-details-information-steps-item .page-content-collider-content-shop-left-side-products-list-item-product-payment-details-information-steps-item-avatar .page-content-collider-content-shop-left-side-products-list-item-product-payment-details-information-steps-avatar-bolder {
+    font-weight: 600;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-shop-left-side .page-content-collider-content-shop-left-side-products-list-item-product-payment-details .page-content-collider-content-shop-left-side-products-list-item-product-payment-details-information .page-content-collider-content-shop-left-side-products-list-item-product-payment-details-information-steps .page-content-collider-content-shop-left-side-products-list-item-product-payment-details-information-steps-item .page-content-collider-content-shop-left-side-products-list-item-product-payment-details-information-steps-item-text {
+    color: #4E4E4E;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0 0 15px 0;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-shop-left-side-products-list-item-product-payment-details .page-content-collider-content-shop-left-side-products-list-item-product-payment-details-information .page-content-collider-content-shop-left-side-products-list-item-product-payment-details-information-steps .page-content-collider-content-shop-left-side-products-list-item-product-payment-details-information-steps-item .page-content-collider-content-shop-left-side-products-list-item-product-payment-details-information-steps-item-text:last-child {
+    margin: 0;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-shop-left-side-products-list-item-product-payment-details .page-content-collider-content-shop-left-side-products-list-item-product-payment-details-information .page-content-collider-content-shop-left-side-products-list-item-product-payment-details-information-payment-method {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #d3d3d3;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 0 0 10px 0;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-shop-left-side .page-content-collider-content-shop-left-side-products .page-content-collider-content-shop-left-side-products-list .page-content-collider-content-shop-left-side-products-list-item-product-payment-details .page-content-collider-content-shop-left-side-products-list-item-product-payment-details-information .page-content-collider-content-shop-left-side-products-list-item-product-payment-details-information-payment-method:last-child {
+    margin: 0;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-shop-left-side .page-content-collider-content-shop-left-side-products-list-item-product-payment-details .page-content-collider-content-shop-left-side-products-list-item-product-payment-details-information .page-content-collider-content-shop-left-side-products-list-item-product-payment-details-information-payment-method .page-content-collider-content-shop-left-side-products-list-item-product-payment-details-information-payment-method-logo {
+    width: 140px;
+    image-rendering: -webkit-optimize-contrast;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-shop-left-side .page-content-collider-content-shop-left-side-products-list-item-product-payment-details .page-content-collider-content-shop-left-side-products-list-item-product-payment-details-information .page-content-collider-content-shop-left-side-products-list-item-product-payment-details-information-payment-method .page-content-collider-content-shop-left-side-products-list-item-product-payment-details-information-payment-method-button {
+    background-color: #00813e;
+    border-radius: 3px;
+    padding: 10px 30px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-shop-left-side .page-content-collider-content-shop-left-side-products-list-item-product-payment-details .page-content-collider-content-shop-left-side-products-list-item-product-payment-details-information .page-content-collider-content-shop-left-side-products-list-item-product-payment-details-information-payment-method .page-content-collider-content-shop-left-side-products-list-item-product-payment-details-information-payment-method-button:hover {
+    background-color: #09994e;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-shop-left-side .page-content-collider-content-shop-left-side-products-list-item-product-payment-details .page-content-collider-content-shop-left-side-products-list-item-product-payment-details-information .page-content-collider-content-shop-left-side-products-list-item-product-payment-details-information-payment-method .page-content-collider-content-shop-left-side-products-list-item-product-payment-details-information-payment-method-button:active {
+    background-color: #016631;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-shop-right-side {
+    display: flex;
+    flex-direction: column;
+    width: 370px;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-shop-right-side .page-content-collider-content-shop-right-side-box {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e5e5;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 0 0 20px 0;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-shop-right-side .page-content-collider-content-shop-right-side-box .page-content-collider-content-shop-right-side-box-title {
+    color: #2C3039;
+    font-size: 19px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 0 0 5px 0;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-shop-right-side .page-content-collider-content-shop-right-side-box .page-content-collider-content-shop-right-side-box-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-shop-right-side .page-content-collider-content-shop-right-side-box .page-content-collider-content-shop-right-side-box-content-text {
+    color: #4E4E4E;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0 0 15px 0;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-shop-right-side .page-content-collider-content-shop-right-side-box .page-content-collider-content-shop-right-side-box-content-text:last-child {
+    margin: 0;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-shop-right-side .page-content-collider-content-shop-right-side-box .page-content-collider-content-shop-right-side-box-content-text .page-content-collider-content-shop-right-side-box-content-text-bold {
+    font-weight: 600;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-shop-right-side .page-content-collider-content-shop-right-side-box .page-content-collider-content-shop-right-side-box-content-text .page-content-collider-content-shop-right-side-box-content-text-url {
+    color: #eeb425;
+    font-weight: 500;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-shop-right-side .page-content-collider-content-shop-right-side-box .page-content-collider-content-shop-right-side-box-content-text .page-content-collider-content-shop-right-side-box-content-text-url:hover {
+    text-decoration: underline;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-shop-right-side .page-content-collider-content-shop-right-side-box .page-content-collider-content-shop-right-side-box-content-column {
+    display: flex;
+    justify-content: space-between;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-shop-right-side .page-content-collider-content-shop-right-side-box .page-content-collider-content-shop-right-side-box-content-item {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-shop-right-side .page-content-collider-content-shop-right-side-box .page-content-collider-content-shop-right-side-box-content-item .page-content-collider-content-shop-right-side-box-content-item-icon {
+    width: auto;
+    margin: 0 5px 0 0;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-shop-right-side .page-content-collider-content-shop-right-side-box .page-content-collider-content-shop-right-side-box-content-item .page-content-collider-content-shop-right-side-box-content-item-text {
+    color: #4E4E4E;
+    font-size: 15px;
+    font-weight: 500;
 }
 
 .page-content .error {

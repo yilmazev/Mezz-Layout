@@ -8,7 +8,7 @@
     <title>Virtual World, Avatar Chat and Pixel Art - Habbo</title>
 </head>
 <body class="container">
-	<script src="/assets/scripts/app.js"></script>
+	<script src="/assets/scripts/page-load.js"></script>
     <div class="page-content">
         <div class="page-content-user-space">
             <div class="page-content-max-width space-between">
@@ -140,17 +140,17 @@
                 <div class="page-content-max-width space-between" style="align-items: flex-start;">
                     <div class="page-content-footer-column">
                         <img class="page-content-footer-logo" src="https://habbofont.net/font/habbo_big/habbo.gif">
-                        <p class="page-content-footer-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui, provident doloremque? Temporibus aliquam maiores debitis cumque? Officia voluptate reprehenderit recusandae ipsum nulla voluptatibus iure, ratione, corporis et, nam sint fuga!</p>
+                        <p class="page-content-footer-text">Habbo is an online vintage pixel-art style virtual community where you can create your own avatar, make friends, chat, build rooms, design + play games and so much more! Almost anything is possible in this strange place full of awesome people…</p>
                     </div>
                     <div class="page-content-footer-column">
                         <h3 class="page-content-footer-title">Support</h3>
-                        <a href="" class="page-content-footer-url">Help center</a>
-                        <a href="" class="page-content-footer-url">I forgot my password</a>
+                        <a href="" class="page-content-footer-url">Help Center</a>
+                        <a href="" class="page-content-footer-url">Recover Password</a>
                         <a href="mailto:ylmzofc@outlook.com" class="page-content-footer-url">ylmzofc@outlook.com</a>
                     </div>
                     <div class="page-content-footer-column">
                         <h3 class="page-content-footer-title">Security and Privacy</h3>
-                        <a href="" class="page-content-footer-url">Safety</a>
+                        <a href="/playing-habbo/safety.php" class="page-content-footer-url">Safety</a>
                         <a href="" class="page-content-footer-url">Terms of Service</a>
                         <a href="" class="page-content-footer-url">Privacy Policy</a>
                         <a href="" class="page-content-footer-url">Cookie Policy</a>
@@ -170,5 +170,6 @@
             </div>
         </footer>
     </div>
+	<script src="/assets/scripts/app.js"></script>
 </body>
 </html>

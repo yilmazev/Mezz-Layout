@@ -1,20 +1,3 @@
-$('body').append('<div class="page-load"><img src="/assets/images/loader/box.gif"></div>');
-
-$(window).on('load', function() {
-	setTimeout(removeLoader, 2000);
-	console.log(
-	"Mezz CMS - by Hugoyin\n" +
-	"You can access front-end files for free on GitHub. https://github.com/yilmazev/Mezz-Layout\n" +
-	"Join our Discord server to follow updates! https://discord.gg/rse43jwzSB\n\n" +
-	"All rights reserved. Design and coding by Hugoyin.");
-});
-
-function removeLoader(){
-	$( ".page-load" ).fadeOut(500, function() {
-		$( ".page-load" ).remove();
-	}); 
-}
-
 function dropdown() {
 	document.getElementById("user-space-dropdown").classList.toggle("show");
 }
@@ -35,3 +18,20 @@ window.onclick = function(event) {
 $(document).ready(function(){
 	$('[data-toggle="tooltip"]').tooltip();
 });
+
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+	acc[i].addEventListener("click", function() {
+		this.classList.toggle("active");
+		var payment = this.nextElementSibling;
+		if (payment.style.display === "block") {
+			payment.style.display = "none";
+		} 
+		
+		else {
+			payment.style.display = "block";
+		}
+	});
+}
