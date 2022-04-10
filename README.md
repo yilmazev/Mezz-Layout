@@ -15,12 +15,12 @@
 
 ✔️ Download modal box
 
+✔️ Playing Habbo pages
+
 ## To Do
 ❌ Highscores page
 
 ❌ Shop page
-
-❌ Playing Habbo pages
 
 ❌ Help center
 
