@@ -83,47 +83,47 @@
                             <div class="page-content-collider-content-news-left-side-item">
                                 <h3 class="page-content-collider-content-news-left-side-item-title">Today</h3>
                                 <ul class="page-content-collider-content-news-left-side-item-list">
-                                    <li class="page-content-collider-content-news-left-side-item-list-item active"><a href="#" class="page-content-collider-content-news-left-side-item-list-url">Test Article</a></li>
-                                    <li class="page-content-collider-content-news-left-side-item-list-item"><a href="#" class="page-content-collider-content-news-left-side-item-list-url">Test Article</a></li>
-                                    <li class="page-content-collider-content-news-left-side-item-list-item"><a href="#" class="page-content-collider-content-news-left-side-item-list-url">Test Article</a></li>
-                                    <li class="page-content-collider-content-news-left-side-item-list-item"><a href="#" class="page-content-collider-content-news-left-side-item-list-url">Test Article</a></li>
-                                    <li class="page-content-collider-content-news-left-side-item-list-item"><a href="#" class="page-content-collider-content-news-left-side-item-list-url">Test Article</a></li>
+                                    <li class="page-content-collider-content-news-left-side-item-list-item active"><a href="#" class="page-content-collider-content-news-left-side-item-list-url">Test Article »</a></li>
+                                    <li class="page-content-collider-content-news-left-side-item-list-item"><a href="#" class="page-content-collider-content-news-left-side-item-list-url">Test Article »</a></li>
+                                    <li class="page-content-collider-content-news-left-side-item-list-item"><a href="#" class="page-content-collider-content-news-left-side-item-list-url">Test Article »</a></li>
+                                    <li class="page-content-collider-content-news-left-side-item-list-item"><a href="#" class="page-content-collider-content-news-left-side-item-list-url">Test Article »</a></li>
+                                    <li class="page-content-collider-content-news-left-side-item-list-item"><a href="#" class="page-content-collider-content-news-left-side-item-list-url">Test Article »</a></li>
                                 </ul>
                             </div>
                             <div class="page-content-collider-content-news-left-side-item">
                                 <h3 class="page-content-collider-content-news-left-side-item-title">This Week</h3>
                                 <ul class="page-content-collider-content-news-left-side-item-list">
-                                    <li class="page-content-collider-content-news-left-side-item-list-item"><a href="#" class="page-content-collider-content-news-left-side-item-list-url">Test Article</a></li>
-                                    <li class="page-content-collider-content-news-left-side-item-list-item"><a href="#" class="page-content-collider-content-news-left-side-item-list-url">Test Article</a></li>
-                                    <li class="page-content-collider-content-news-left-side-item-list-item"><a href="#" class="page-content-collider-content-news-left-side-item-list-url">Test Article</a></li>
-                                    <li class="page-content-collider-content-news-left-side-item-list-item"><a href="#" class="page-content-collider-content-news-left-side-item-list-url">Test Article</a></li>
-                                    <li class="page-content-collider-content-news-left-side-item-list-item"><a href="#" class="page-content-collider-content-news-left-side-item-list-url">Test Article</a></li>
+                                    <li class="page-content-collider-content-news-left-side-item-list-item"><a href="#" class="page-content-collider-content-news-left-side-item-list-url">Test Article »</a></li>
+                                    <li class="page-content-collider-content-news-left-side-item-list-item"><a href="#" class="page-content-collider-content-news-left-side-item-list-url">Test Article »</a></li>
+                                    <li class="page-content-collider-content-news-left-side-item-list-item"><a href="#" class="page-content-collider-content-news-left-side-item-list-url">Test Article »</a></li>
+                                    <li class="page-content-collider-content-news-left-side-item-list-item"><a href="#" class="page-content-collider-content-news-left-side-item-list-url">Test Article »</a></li>
+                                    <li class="page-content-collider-content-news-left-side-item-list-item"><a href="#" class="page-content-collider-content-news-left-side-item-list-url">Test Article »</a></li>
                                 </ul>
                             </div>
                             <div class="page-content-collider-content-news-left-side-item">
                                 <h3 class="page-content-collider-content-news-left-side-item-title">Last Week</h3>
                                 <ul class="page-content-collider-content-news-left-side-item-list">
-                                    <li class="page-content-collider-content-news-left-side-item-list-item"><a href="#" class="page-content-collider-content-news-left-side-item-list-url">Test Article</a></li>
-                                    <li class="page-content-collider-content-news-left-side-item-list-item"><a href="#" class="page-content-collider-content-news-left-side-item-list-url">Test Article</a></li>
-                                    <li class="page-content-collider-content-news-left-side-item-list-item"><a href="#" class="page-content-collider-content-news-left-side-item-list-url">Test Article</a></li>
-                                    <li class="page-content-collider-content-news-left-side-item-list-item"><a href="#" class="page-content-collider-content-news-left-side-item-list-url">Test Article</a></li>
-                                    <li class="page-content-collider-content-news-left-side-item-list-item"><a href="#" class="page-content-collider-content-news-left-side-item-list-url">Test Article</a></li>
+                                    <li class="page-content-collider-content-news-left-side-item-list-item"><a href="#" class="page-content-collider-content-news-left-side-item-list-url">Test Article »</a></li>
+                                    <li class="page-content-collider-content-news-left-side-item-list-item"><a href="#" class="page-content-collider-content-news-left-side-item-list-url">Test Article »</a></li>
+                                    <li class="page-content-collider-content-news-left-side-item-list-item"><a href="#" class="page-content-collider-content-news-left-side-item-list-url">Test Article »</a></li>
+                                    <li class="page-content-collider-content-news-left-side-item-list-item"><a href="#" class="page-content-collider-content-news-left-side-item-list-url">Test Article »</a></li>
+                                    <li class="page-content-collider-content-news-left-side-item-list-item"><a href="#" class="page-content-collider-content-news-left-side-item-list-url">Test Article »</a></li>
                                 </ul>
                             </div>
                             <div class="page-content-collider-content-news-left-side-item">
                                 <h3 class="page-content-collider-content-news-left-side-item-title">Lask Month</h3>
                                 <ul class="page-content-collider-content-news-left-side-item-list">
-                                    <li class="page-content-collider-content-news-left-side-item-list-item"><a href="#" class="page-content-collider-content-news-left-side-item-list-url">Test Article</a></li>
-                                    <li class="page-content-collider-content-news-left-side-item-list-item"><a href="#" class="page-content-collider-content-news-left-side-item-list-url">Test Article</a></li>
-                                    <li class="page-content-collider-content-news-left-side-item-list-item"><a href="#" class="page-content-collider-content-news-left-side-item-list-url">Test Article</a></li>
-                                    <li class="page-content-collider-content-news-left-side-item-list-item"><a href="#" class="page-content-collider-content-news-left-side-item-list-url">Test Article</a></li>
-                                    <li class="page-content-collider-content-news-left-side-item-list-item"><a href="#" class="page-content-collider-content-news-left-side-item-list-url">Test Article</a></li>
+                                    <li class="page-content-collider-content-news-left-side-item-list-item"><a href="#" class="page-content-collider-content-news-left-side-item-list-url">Test Article »</a></li>
+                                    <li class="page-content-collider-content-news-left-side-item-list-item"><a href="#" class="page-content-collider-content-news-left-side-item-list-url">Test Article »</a></li>
+                                    <li class="page-content-collider-content-news-left-side-item-list-item"><a href="#" class="page-content-collider-content-news-left-side-item-list-url">Test Article »</a></li>
+                                    <li class="page-content-collider-content-news-left-side-item-list-item"><a href="#" class="page-content-collider-content-news-left-side-item-list-url">Test Article »</a></li>
+                                    <li class="page-content-collider-content-news-left-side-item-list-item"><a href="#" class="page-content-collider-content-news-left-side-item-list-url">Test Article »</a></li>
                                 </ul>
                             </div>
                         </div>
                         <div class="page-content-collider-content-news-right-side">
                             <div class="page-content-collider-content-news-right-side-content">
-                            <h2 class="page-content-collider-content-news-right-side-content-title">Test Article</h2>
+                            <h2 class="page-content-collider-content-news-right-side-content-title">Test Article »</h2>
                                 <p>Lorem ipsum dolor sit amet consectetur, <a href="#">adipisicing elit</a>. Delectus mollitia nesciunt sunt totam aut libero, aperiam reiciendis. Pariatur fuga molestias sint ratione ipsa incidunt aliquam dolore quo ut fugit. Culpa.</p>
                                 <ul>
                                     <li>Test</li>

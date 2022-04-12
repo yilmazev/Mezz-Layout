@@ -226,7 +226,7 @@ button, input[type=button], a, .page-content-nav-item {
 
 .page-content .page-content-modal .page-content-modal-center .page-content-modal-center-form .page-content-modal-center-form-content .page-content-modal-center-form-content-button-launch {
     background-color: #00813e;
-    background-image: url('/assets/images/launch/launch.png');
+    background-image: url('../images/launch/launch.png');
     background-repeat: no-repeat;
     background-position: 10px 10px;
     background-size: 33px;
@@ -236,6 +236,7 @@ button, input[type=button], a, .page-content-nav-item {
     padding: 15px;
     border-radius: 3px;
     margin: 5px 0 0 0;
+	text-align: center;
     image-rendering: pixelated;
 }
 
@@ -249,7 +250,7 @@ button, input[type=button], a, .page-content-nav-item {
 
 .page-content .page-content-modal .page-content-modal-center .page-content-modal-center-form .page-content-modal-center-form-content .page-content-modal-center-form-content-button-download {
     background-color: #EEB425;
-    background-image: url('/assets/images/launch/magic.png');
+    background-image: url('../images/launch/magic.png');
     background-repeat: no-repeat;background-position: 10px 10px;
     background-size: 33px;
     color: #fff;
@@ -258,6 +259,7 @@ button, input[type=button], a, .page-content-nav-item {
     padding: 15px;
     border-radius: 3px;
     margin: 5px 0 0 0;
+	text-align: center;
     image-rendering: pixelated;
 }
 
@@ -341,19 +343,19 @@ button, input[type=button], a, .page-content-nav-item {
 }
 
 .page-content .page-content-user-space .page-content-user-space-left-side .page-content-user-space-left-side-item .page-content-user-space-left-side-item-icon.credits {
-    background-image: url('/assets/images/user-space/credits.png');
+    background-image: url('../images/user-space/credits.png');
     background-color: #e9b124;
     outline: 1px solid #b26d18;
 }
 
 .page-content .page-content-user-space .page-content-user-space-left-side .page-content-user-space-left-side-item .page-content-user-space-left-side-item-icon.duckets {
-    background-image: url('/assets/images/user-space/duckets.png');
+    background-image: url('../images/user-space/duckets.png');
     background-color: #c44aac;
     outline: 1px solid #812378;
 }
 
 .page-content .page-content-user-space .page-content-user-space-left-side .page-content-user-space-left-side-item .page-content-user-space-left-side-item-icon.diamonds {
-    background-image: url('/assets/images/user-space/diamonds.png');
+    background-image: url('../images/user-space/diamonds.png');
     background-color: #caf1f3;
     outline: 1px solid #6caff4;
 }
@@ -432,7 +434,7 @@ button, input[type=button], a, .page-content-nav-item {
     position: absolute;
     right: 0;
     top: 8px;
-    background-image: url('/assets/images/user-space/dropdown.png');
+    background-image: url('../images/user-space/dropdown.png');
     background-position: top;
     background-repeat: no-repeat;
     height: 4px;
@@ -471,12 +473,12 @@ button, input[type=button], a, .page-content-nav-item {
     justify-content: center;
     align-items: center;
     height: 200px;
-    background: url('/assets/images/header/default-background.png');
+    background: url('../images/header/default-background.png');
     background-position: center;
 }
 
 .page-content .page-content-header:before {
-    background-image: url(/assets/images/header/pattern.png);
+    background-image: url(../images/header/pattern.png);
     background-color: #2c30397a;
     content: "";
     display: block;
@@ -678,17 +680,17 @@ button, input[type=button], a, .page-content-nav-item {
 }
 
 .page-content .page-content-collider .page-content-collider-item .page-content-collider-head .page-content-collider-head-icon.news {
-    background-image: url('/assets/images/collider/feeds.png');
+    background-image: url('../images/collider/feeds.png');
     background-color: #f68b08;
 }
 
 .page-content .page-content-collider .page-content-collider-item .page-content-collider-head .page-content-collider-head-icon.camera {
-    background-image: url('/assets/images/collider/camera.png');
+    background-image: url('../images/collider/camera.png');
     background-color: #242c31;
 }
 
 .page-content .page-content-collider .page-content-collider-item .page-content-collider-head .page-content-collider-head-icon.rooms {
-    background-image: url('/assets/images/collider/rooms.png');
+    background-image: url('../images/collider/rooms.png');
     background-color: #ff8200;
 }
 
@@ -725,6 +727,13 @@ button, input[type=button], a, .page-content-nav-item {
     height: auto;
 }
 
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content.highscores {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    height: auto;
+}
+
 .page-content .page-content-collider .page-content-collider-item .page-content-collider-content.habbo-way {
     display: flex;
     justify-content: center;
@@ -743,7 +752,7 @@ button, input[type=button], a, .page-content-nav-item {
 
 .page-content .page-content-collider .page-content-collider-item .page-content-collider-content.registration::before {
     image-rendering: pixelated;
-    background: url(/assets/images/registration/background.png);
+    background: url(../images/registration/background.png);
     content: '';
     display: block;
     width: 290px;
@@ -994,10 +1003,23 @@ button, input[type=button], a, .page-content-nav-item {
     margin-bottom: 0;
 }
 
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-rooms-room .page-content-collider-content-rooms-room-error {
+    color: #4e4e4e;
+	font-size: 15px;
+	font-weight: 500;
+}
+
 .page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-rooms-room .page-content-collider-content-rooms-room-image {
-    background-image: url('/assets/images/collider/default-room-image.png');
+    background-image: url('../images/collider/default-room-image.png');
     border-radius: 5px;
     margin: 0 20px 0 0;
+    height: 110px;
+    width: 110px;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-rooms-room .page-content-collider-content-rooms-room-image .page-content-collider-content-rooms-room-image-camera {
+    display: block;
+    border-radius: 5px;
     height: 110px;
     width: 110px;
 }
@@ -1022,7 +1044,7 @@ button, input[type=button], a, .page-content-nav-item {
 }
 
 .page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-rooms-room .page-content-collider-content-rooms-room-owner .page-content-collider-content-rooms-room-owner-head-figure {
-    background-image: url('/assets/images/collider/public-room.png');
+    background-image: url('../images/collider/public-room.png');
     background-position: center;
     background-repeat: no-repeat;
     background-color: #f0f0f0;
@@ -1058,7 +1080,7 @@ button, input[type=button], a, .page-content-nav-item {
     flex-direction: row;
     align-items: center;
     width: 480px;
-    background: linear-gradient(0deg, #202020ad, #202020ad), url(/assets/images/profile/background.png);
+    background: linear-gradient(0deg, #202020ad, #202020ad), url(../images/profile/background.png);
     border-radius: 5px;
 }
 
@@ -1130,15 +1152,15 @@ button, input[type=button], a, .page-content-nav-item {
 }
 
 .page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-profile .page-content-collider-content-profile-purse .page-content-collider-content-profile-purse-item.credits .page-content-collider-content-profile-purse-item-icon {
-    background-image: url('/assets/images/profile/credits.png');
+    background-image: url('../images/profile/credits.png');
 }
 
 .page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-profile .page-content-collider-content-profile-purse .page-content-collider-content-profile-purse-item.duckets .page-content-collider-content-profile-purse-item-icon {
-    background-image: url(/assets/images/profile/duckets.png);
+    background-image: url(../images/profile/duckets.png);
 }
 
 .page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-profile .page-content-collider-content-profile-purse .page-content-collider-content-profile-purse-item.diamonds .page-content-collider-content-profile-purse-item-icon {
-    background-image: url(/assets/images/profile/diamonds.png);
+    background-image: url(../images/profile/diamonds.png);
 }
 
 .page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-profile .page-content-collider-content-profile-purse .page-content-collider-content-profile-purse-item .page-content-collider-content-profile-purse-item-text {
@@ -1180,19 +1202,19 @@ button, input[type=button], a, .page-content-nav-item {
 }
 
 .page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-profile .page-content-collider-content-profile-card-wrapper .page-content-collider-content-profile-card-wrapper-aligner.badges::before {
-    background-image: url('/assets/images/profile/badges.png');
+    background-image: url('../images/profile/badges.png');
 }
 
 .page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-profile .page-content-collider-content-profile-card-wrapper .page-content-collider-content-profile-card-wrapper-aligner.friends::before {
-    background-image: url('/assets/images/profile/friends.png');
+    background-image: url('../images/profile/friends.png');
 }
 
 .page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-profile .page-content-collider-content-profile-card-wrapper .page-content-collider-content-profile-card-wrapper-aligner.rooms::before {
-    background-image: url('/assets/images/profile/rooms.png');
+    background-image: url('../images/profile/rooms.png');
 }
 
 .page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-profile .page-content-collider-content-profile-card-wrapper .page-content-collider-content-profile-card-wrapper-aligner.groups::before {
-    background-image: url('/assets/images/profile/groups.png');
+    background-image: url('../images/profile/groups.png');
 }
 
 .page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-profile .page-content-collider-content-profile-card-wrapper .page-content-collider-content-profile-card-wrapper-aligner .page-content-collider-content-profile-card-wrapper-aligner-content {
@@ -1215,10 +1237,19 @@ button, input[type=button], a, .page-content-nav-item {
     border-radius: 100px;
     padding: 10px 10px;
     margin: 0 46px 0 0;
+	display: inline-flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-profile .page-content-collider-content-profile-card-wrapper .page-content-collider-content-profile-card-wrapper-aligner .page-content-collider-content-profile-card-wrapper-aligner-content .page-content-collider-content-profile-card-wrapper-aligner-content-badge:last-child {
     margin: 0;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-profile .page-content-collider-content-profile-card-wrapper .page-content-collider-content-profile-card-wrapper-aligner .page-content-collider-content-profile-card-wrapper-aligner-content .page-content-collider-content-profile-card-wrapper-aligner-content-error {
+	color: #4E4E4E;
+    font-size: 15px;
+    font-weight: 400;
 }
 
 .page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-profile .page-content-collider-content-profile-card-wrapper .page-content-collider-content-profile-card-wrapper-aligner .page-content-collider-content-profile-card-wrapper-aligner-content .page-content-collider-content-profile-card-wrapper-aligner-content-friend {
@@ -1255,8 +1286,17 @@ button, input[type=button], a, .page-content-nav-item {
 }
 
 .page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-profile .page-content-collider-content-profile-card-wrapper .page-content-collider-content-profile-card-wrapper-aligner .page-content-collider-content-profile-card-wrapper-aligner-content .page-content-collider-content-profile-card-wrapper-aligner-content-room .page-content-collider-content-profile-card-wrapper-aligner-content-room-image {
-    width: auto;
-    border-radius: 3px;
+	background-image: url(../images/collider/default-room-image.png);
+    border-radius: 5px;
+    height: 110px;
+    width: 110px;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-profile .page-content-collider-content-profile-card-wrapper .page-content-collider-content-profile-card-wrapper-aligner .page-content-collider-content-profile-card-wrapper-aligner-content .page-content-collider-content-profile-card-wrapper-aligner-content-room .page-content-collider-content-profile-card-wrapper-aligner-content-room-image .page-content-collider-content-profile-card-wrapper-aligner-content-room-image-camera {
+	display: block;
+    border-radius: 5px;
+    height: 110px;
+    width: 110px;
 }
 
 .page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-profile .page-content-collider-content-profile-card-wrapper .page-content-collider-content-profile-card-wrapper-aligner .page-content-collider-content-profile-card-wrapper-aligner-content .page-content-collider-content-profile-card-wrapper-aligner-content-room .page-content-collider-content-profile-card-wrapper-aligner-content-room-name {
@@ -1271,6 +1311,7 @@ button, input[type=button], a, .page-content-nav-item {
     display: flex;
     flex-wrap: wrap;
     margin: 50px 0 0 0;
+	width: 100%;
 }
 
 .page-content .page-content-collider .page-content-collider-item .page-content-collider-content-profile .page-content-collider-content-profile-photos .page-content-collider-content-profile-photos-title {
@@ -1334,7 +1375,7 @@ button, input[type=button], a, .page-content-nav-item {
 }
 
 .page-content .page-content-collider .page-content-collider-item .page-content-collider-content-profile .page-content-collider-content-profile-icon-heart {
-    background-image: url('/assets/images/profile/heart.png');
+    background-image: url('../images/profile/heart.png');
     height: 24px;
     width: 26px;
     font-weight: 600;
@@ -1647,7 +1688,7 @@ button, input[type=button], a, .page-content-nav-item {
     color: #2c3039;
     font-size: 16px;
     font-weight: 600;
-    padding: 10px 20px 0 20px;
+    padding: 10px 20px 10px 20px;
 }
 
 .page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-staffs-column .page-content-collider-content-staffs-box .page-content-collider-content-staffs-box-row {
@@ -1687,11 +1728,11 @@ button, input[type=button], a, .page-content-nav-item {
     font-weight: 600;
 }
 
-.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-staffs-column .page-content-collider-content-staffs-box .page-content-collider-content-staffs-box-status.online {
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-staffs-column .page-content-collider-content-staffs-box .page-content-collider-content-staffs-box-status.Online {
     color: #28852c;
 }
 
-.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-staffs-column .page-content-collider-content-staffs-box .page-content-collider-content-staffs-box-status.offline {
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-staffs-column .page-content-collider-content-staffs-box .page-content-collider-content-staffs-box-status.Offline {
     color: #ad2a21;
 }
 
@@ -1755,14 +1796,12 @@ button, input[type=button], a, .page-content-nav-item {
     color: #4e4e4e;
 }
 
-
-.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-news-left-side .page-content-collider-content-news-left-side-item .page-content-collider-content-news-left-side-item-list .page-content-collider-content-news-left-side-item-list-item .page-content-collider-content-news-left-side-item-list-url::after {
-    content: "ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â»";
-    padding: 0 0 0 5px;
-}
-
 .page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-news-left-side .page-content-collider-content-news-left-side-item .page-content-collider-content-news-left-side-item-list .page-content-collider-content-news-left-side-item-list-item .page-content-collider-content-news-left-side-item-list-url:hover {
     text-decoration: underline;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-news-left-side .page-content-collider-content-news-left-side-item .page-content-collider-content-news-left-side-item-list .page-content-collider-content-news-left-side-item-list-item.active .page-content-collider-content-news-left-side-item-list-url:hover {
+    text-decoration: none;
 }
 
 .page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-news-right-side {
@@ -1793,6 +1832,7 @@ button, input[type=button], a, .page-content-nav-item {
     color: #4E4E4E;
     font-size: 14px;
     font-weight: 400;
+    margin: 0 0 8px 0;
 }
 
 .page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-news-right-side .page-content-collider-content-news-right-side-content a {
@@ -1809,6 +1849,7 @@ button, input[type=button], a, .page-content-nav-item {
     color: #4E4E4E;
     font-size: 14px;
     list-style: inside;
+    margin: 0 0 3px 15px;
 }
 
 .page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-news-right-side .page-content-collider-content-news-right-side-content .page-content-collider-content-news-right-side-content-article-author {
@@ -1832,8 +1873,8 @@ button, input[type=button], a, .page-content-nav-item {
 
 .page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-playing-habbo-item {
     position: relative;
-    margin: 30px 0;
     width: 100%;
+    margin: 0 0 30px 0;
 }
 
 .page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-playing-habbo-item.dashed {
@@ -1863,13 +1904,16 @@ button, input[type=button], a, .page-content-nav-item {
 .page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-right-side {
     display: flex;
     flex-direction: column;
-width: 90%;margin-left: 10%;}
+    width: 90%;
+    margin-left: 10%;
+}
 
 .page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-playing-habbo-item-big-title {
     color: #2C3039;
     font-size: 23px;
     font-weight: 600;
     text-transform: uppercase;
+    margin: 0 0 10px 0;
 }
 
 .page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-playing-habbo-item .page-content-collider-content-playing-habbo-item-title {
@@ -1908,73 +1952,73 @@ width: 90%;margin-left: 10%;}
 }
 
 .page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-playing-habbo-item .page-content-collider-content-playing-habbo-item-image {
-    display: inline-block;
+    display: block;
     float: right;
 }
 
 .page-content .page-content-collider .page-content-collider-item .page-content-collider-content .--icon-1 {
-    background-image: url('/assets/images/shop/habbo-club.png');
+    background-image: url('../images/shop/habbo-club.png');
     height: 90px;
     width: 74px;
 }
 
 .page-content .page-content-collider .page-content-collider-item .page-content-collider-content .--icon-2 {
-    background-image: url('/assets/images/shop/builder-club.png');
+    background-image: url('../images/shop/builder-club.png');
     height: 58px;
     width: 98px;
 }
 
 .page-content .page-content-collider .page-content-collider-item .page-content-collider-content .--icon-3 {
-    background-image: url('/assets/images/shop/bundle.png');
+    background-image: url('../images/shop/bundle.png');
     height: 94px;
     width: 86px;
 }
 
 .page-content .page-content-collider .page-content-collider-item .page-content-collider-content .--icon-4 {
-    background-image: url('/assets/images/shop/15c_15d.png');
+    background-image: url('../images/shop/15c_15d.png');
     height: 57px;
     width: 49px;
 }
 
 .page-content .page-content-collider .page-content-collider-item .page-content-collider-content .--icon-5 {
-    background-image: url('/assets/images/shop/30c_30d.png');
+    background-image: url('../images/shop/30c_30d.png');
     height: 66px;
     width: 61px;
 }
 
 .page-content .page-content-collider .page-content-collider-item .page-content-collider-content .--icon-6 {
-    background-image: url('/assets/images/shop/45c_45d.png');
+    background-image: url('../images/shop/45c_45d.png');
     height: 66px;
     width: 87px;
 }
 
 
 .page-content .page-content-collider .page-content-collider-item .page-content-collider-content .--icon-7 {
-    background-image: url('/assets/images/shop/55c_55d.png');
+    background-image: url('../images/shop/55c_55d.png');
     height: 73px;
     width: 87px;
 }
 
 .page-content .page-content-collider .page-content-collider-item .page-content-collider-content .--icon-8 {
-    background-image: url('/assets/images/shop/special-offers/230c_230d.png');
+    background-image: url('../images/shop/special-offers/230c_230d.png');
     height: 140px;
     width: 240px;
 }
 
 .page-content .page-content-collider .page-content-collider-item .page-content-collider-content .--s-icon-8 {
-    background-image: url('/assets/images/shop/special-offers/230c_230d_small.png');
+    background-image: url('../images/shop/special-offers/230c_230d_small.png');
     height: 98px;
     width: 98px;
 }
 
 .page-content .page-content-collider .page-content-collider-item .page-content-collider-content .--icon-9 {
-    background-image: url('/assets/images/shop/110c_110d.png');
+    background-image: url('../images/shop/110c_110d.png');
     height: 92px;
     width: 84px;
 }
 
 .page-content .page-content-collider .page-content-collider-item .page-content-collider-content .--icon-10 {
-    background-image: url('/assets/images/shop/630c_630d.png');
+    background-image: url('../images/shop/630c_630d.png');
     height: 95px;
     width: 95px;
 }
@@ -2083,7 +2127,7 @@ margin: 0 0 20px 0;}
 }
 
 .page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-shop-left-side .page-content-collider-content-shop-left-side-special-offer .page-content-collider-content-shop-left-side-special-offer-item .page-content-collider-content-shop-left-side-special-offer-item-body .page-content-collider-content-shop-left-side-special-offer-item-body-price::after {
-    background-image: url(/assets/images/shop/icon.png);
+    background-image: url(../images/shop/icon.png);
     width: 18px;
     height: 10px;
     content: '';
@@ -2169,7 +2213,7 @@ margin: 0 0 20px 0;}
 }
 
 .page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-shop-left-side .page-content-collider-content-shop-left-side-products .page-content-collider-content-shop-left-side-products-list .page-content-collider-content-shop-left-side-products-list-item .page-content-collider-content-shop-left-side-products-list-item-price::after {
-    background-image: url(/assets/images/shop/icon.png);
+    background-image: url(../images/shop/icon.png);
     width: 18px;
     height: 10px;
     content: '';
@@ -2399,9 +2443,119 @@ margin: 0 0 20px 0;}
     font-weight: 500;
 }
 
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-highscores-ranking {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 15px;
+    width: 350px;
+    margin: 0 20px 0 0;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-highscores-ranking:last-child {
+    width: 350px;
+    margin: 0;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-highscores-ranking .page-content-collider-content-highscores-ranking-head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0 10px 0;
+    border-bottom: 1px solid #cecece;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-highscores-ranking .page-content-collider-content-highscores-ranking-head .page-content-collider-content-highscores-ranking-head-icon {
+    width: auto;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-highscores-ranking .page-content-collider-content-highscores-ranking-head .page-content-collider-content-highscores-ranking-head-title {
+    color: #2C3039;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 0 0 0 5px;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-highscores-ranking .page-content-collider-content-highscores-ranking-content {
+    display: flex;
+    flex-direction: column
+    ;margin: 10px 0 0 0;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-highscores-ranking .page-content-collider-content-highscores-ranking-content .page-content-collider-content-highscores-ranking-content-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    width: 100%;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-highscores-ranking .page-content-collider-content-highscores-ranking-content .page-content-collider-content-highscores-ranking-content-item .page-content-collider-content-highscores-ranking-content-item-nth {
+    background-color: #e2e2e2;
+    border-radius: 100px;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #4E4E4E;
+    font-size: 18px;
+    font-weight: 500;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-highscores-ranking .page-content-collider-content-highscores-ranking-content .page-content-collider-content-highscores-ranking-content-item:nth-of-type(1) .page-content-collider-content-highscores-ranking-content-item-nth {
+    background-image: url('/assets/images/highscores/trophy-gold.png');
+    background-color: #f9d83e;
+    color: transparent;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-highscores-ranking .page-content-collider-content-highscores-ranking-content .page-content-collider-content-highscores-ranking-content-item:nth-of-type(2) .page-content-collider-content-highscores-ranking-content-item-nth {
+    background-image: url('/assets/images/highscores/trophy-silver.png');
+    background-color: #b8c4d4;
+    color: transparent;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-highscores-ranking .page-content-collider-content-highscores-ranking-content .page-content-collider-content-highscores-ranking-content-item:nth-of-type(3) .page-content-collider-content-highscores-ranking-content-item-nth {
+    background-image: url('/assets/images/highscores/trophy-bronze.png');
+    background-color: #f1851b;
+    color: transparent;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-highscores-ranking .page-content-collider-content-highscores-ranking-content .page-content-collider-content-highscores-ranking-content-item .page-content-collider-content-highscores-ranking-content-item-figure {
+    width: auto;
+    margin: 0 5px 0 10px;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-highscores-ranking .page-content-collider-content-highscores-ranking-content .page-content-collider-content-highscores-ranking-content-item .page-content-collider-content-highscores-ranking-content-item-username {
+    color: #2C3039;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-highscores-ranking .page-content-collider-content-highscores-ranking-content .page-content-collider-content-highscores-ranking-content-item .page-content-collider-content-highscores-ranking-content-item-amount {
+    color: #4E4E4E;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-highscores-ranking .page-content-collider-content-highscores-ranking-content .page-content-collider-content-highscores-ranking-content-item .page-content-collider-content-highscores-ranking-content-item-amount .page-content-collider-content-highscores-ranking-content-item-amount-bold {
+    font-weight: 600;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-highscores-ranking .page-content-collider-content-highscores-ranking-content .page-content-collider-content-highscores-ranking-content-item .page-content-collider-content-highscores-ranking-content-item-column {
+    display: flex;
+    flex-direction: column;
+}
+
 .page-content .error {
-    display: none;
-    position: absolute;
+	display: none;
+    position: fixed;
     right: 15px;
     bottom: 15px;
     background-color: #f44336;
@@ -2410,7 +2564,8 @@ margin: 0 0 20px 0;}
     font-size: 15px;
     font-weight: 400;
     border-radius: 3px;
-    padding: 5px 20px;
+    padding: 10px 20px;
+    z-index: 3;
 }
 
 .page-content .page-content-footer {
