@@ -24,6 +24,8 @@
 ✔️ Choose style page
 
 ## To Do
+❌ Responsive design
+
 ❌ Help center
 
 ❌ Terms of service, privacy policy, cookie policy page
