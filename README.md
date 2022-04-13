@@ -21,6 +21,8 @@
 
 ✔️ Highscore page
 
+✔️ Choose style page
+
 ## To Do
 ❌ Help center
 
