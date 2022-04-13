@@ -19,9 +19,9 @@
 
 ✔️ Shop page
 
-## To Do
-❌ Highscores page
+✔️ Highscore page
 
+## To Do
 ❌ Help center
 
 ❌ Terms of service, privacy policy, cookie policy page
