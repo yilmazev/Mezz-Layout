@@ -720,6 +720,14 @@ button, input[type=button], a, .page-content-nav-item {
     width: 100%;
 }
 
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content.not-found {
+    display: flex;
+	flex-direction: column;justify-content: center;
+	align-items: center;
+	height: 100%;
+	width: 100%;
+margin: 50px 0;}
+
 .page-content .page-content-collider .page-content-collider-item .page-content-collider-content.news {
     display: flex;
     justify-content: center;
@@ -2551,6 +2559,35 @@ margin: 0 0 20px 0;}
 .page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-highscores-ranking .page-content-collider-content-highscores-ranking-content .page-content-collider-content-highscores-ranking-content-item .page-content-collider-content-highscores-ranking-content-item-column {
     display: flex;
     flex-direction: column;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-not-found-image {
+    background-image: url('/assets/images/not-found/fank_walksaway.png');
+    height: 96px;
+    width: 60px;
+    margin: 0 0 10px 0;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-not-found-title {
+    color: #2C3039;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0 0 5px 0;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-not-found-text {
+    color: #4E4E4E;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-not-found-text .page-content-collider-item-content-not-found-text-url {
+    color: #eeb425;
+    font-weight: 600;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-not-found-text .page-content-collider-item-content-not-found-text-url:hover {
+    text-decoration: underline;
 }
 
 .page-content .error {
