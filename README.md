@@ -25,6 +25,8 @@
 
 ✔️ Error page 
 
+✔️ Maintenance page 
+
 ## To Do
 ❌ Responsive design
 
