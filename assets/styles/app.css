@@ -497,6 +497,11 @@ button, input[type=button], a, .page-content-nav-item {
     height: 100%;
 }
 
+.page-content .page-content-header .page-content-header-column .page-content-header-logo {
+    -webkit-filter: drop-shadow(-1px -1px 0 #265672a6) drop-shadow(1px 1px 0 #265672a6) drop-shadow(-3px -3px 0 #00000077) drop-shadow(3px 3px 0 #00000077);
+    z-index: 1;
+}
+
 .page-content .page-content-header .page-content-header-column .page-content-header-text {
     color: #fff;
     font-size: 17px;
@@ -722,11 +727,19 @@ button, input[type=button], a, .page-content-nav-item {
 
 .page-content .page-content-collider .page-content-collider-item .page-content-collider-content.not-found {
     display: flex;
-	flex-direction: column;justify-content: center;
+	flex-direction: column;
+    justify-content: center;
 	align-items: center;
 	height: 100%;
 	width: 100%;
-margin: 50px 0;}
+    margin: 50px 0;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content.maintenance {
+    display: flex;
+	height: 100%;
+	width: 100%;
+}
 
 .page-content .page-content-collider .page-content-collider-item .page-content-collider-content.news {
     display: flex;
@@ -2588,6 +2601,30 @@ margin: 0 0 20px 0;}
 
 .page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-not-found-text .page-content-collider-item-content-not-found-text-url:hover {
     text-decoration: underline;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-maintenance-box {
+    display: flex;flex-direction: column;align-items: center;background-color: #fff;
+    padding: 30px;
+    max-width: 550px;
+    margin: 0 50px 0 0;
+    border-radius: 6px;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-maintenance-box .page-content-collider-content-maintenance-box-title {
+    display: block;width: 100%;color: #2C3039;
+    font-size: 27px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0 0 10px 0;
+}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-maintenance-box .page-content-collider-content-maintenance-box-text {
+    color: #4E4E4E;
+font-size: 16px;font-weight: 400;margin: 0 0 50px 0;}
+
+.page-content .page-content-collider .page-content-collider-item .page-content-collider-content .page-content-collider-content-maintenance-discord {
+    width: auto;
 }
 
 .page-content .error {
