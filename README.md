@@ -23,6 +23,8 @@
 
 ✔️ Choose style page
 
+✔️ Error page 
+
 ## To Do
 ❌ Responsive design
 
