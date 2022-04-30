@@ -27,6 +27,8 @@
 
 ✔️ Maintenance page 
 
+✔️ Banned page 
+
 ## To Do
 ❌ Responsive design
 
