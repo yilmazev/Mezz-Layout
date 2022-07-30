@@ -36,7 +36,7 @@
 
 ❌ Terms of service, privacy policy, cookie policy page
 
-Join our Discord server to follow updates! https://discord.gg/fyncucZHEz
+Join our Discord server to follow updates! [https://discord.gg/fyncucZHEz](https://discord.gg/aSXhBn5UVV)
 
 <p align="center">
   <img src="https://4.bp.blogspot.com/-bmtODumkTL4/Vt36B0I1_oI/AAAAAAAAiOg/RjOA1pyxbXk/s1600/BAW_foroneday.png">
